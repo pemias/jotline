@@ -1,28 +1,24 @@
 import i18next from "eslint-plugin-i18next";
 import tsParser from "@typescript-eslint/parser";
+import sveltePlugin from "eslint-plugin-svelte";
+import svelteParser from "svelte-eslint-parser";
 
 export default [
   {
-    files: ["src/**/*.{ts,tsx}"],
+    files: ["src/**/*.ts"],
     languageOptions: {
       parser: tsParser,
-      parserOptions: {
-        ecmaFeatures: {
-          jsx: true,
-        },
-      },
     },
     plugins: {
       i18next,
     },
     rules: {
-      // Catch text in JSX that should be translated
       "i18next/no-literal-string": [
         "error",
         {
-          markupOnly: true, // Only check JSX content, not all strings
+          markupOnly: true,
           ignoreAttribute: [
-            "className",
+            "class",
             "style",
             "type",
             "id",
@@ -30,7 +26,35 @@ export default [
             "key",
             "data-*",
             "aria-*",
-          ], // Ignore common non-translatable attributes
+          ],
+        },
+      ],
+    },
+  },
+  {
+    files: ["src/**/*.svelte"],
+    languageOptions: {
+      parser: svelteParser,
+      parserOptions: {
+        parser: tsParser,
+      },
+    },
+    plugins: {
+      svelte: sveltePlugin,
+    },
+    rules: {
+      "no-restricted-syntax": [
+        "error",
+        {
+          selector: "SvelteElement SvelteText[value=/[A-Za-z]{2,}/]",
+          message:
+            "Hardcoded template text is not allowed. Use i18n translation keys.",
+        },
+        {
+          selector:
+            "SvelteElement > SvelteStartTag > SvelteAttribute[key.name=/^(placeholder|alt|aria-label|value|title)$/][value.length=1] > SvelteLiteral[value=/\\S/]",
+          message:
+            "Hardcoded attribute text is not allowed. Use i18n translation keys.",
         },
       ],
     },

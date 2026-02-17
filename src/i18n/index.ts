@@ -1,6 +1,6 @@
 import i18n from "i18next";
-import { initReactI18next } from "react-i18next";
-import { locale } from "@tauri-apps/plugin-os";
+import { writable, derived } from "svelte/store";
+import { locale as osLocale } from "@tauri-apps/plugin-os";
 import { LANGUAGE_METADATA } from "./languages";
 import { commands } from "@/bindings";
 import {
@@ -71,19 +71,40 @@ const getSupportedLanguage = (
   return supported ? supported.code : null;
 };
 
-// Initialize i18n with English as default
-// Language will be synced from settings after init
-i18n.use(initReactI18next).init({
+// Initialize i18n
+i18n.init({
   resources,
   lng: "en",
   fallbackLng: "en",
   interpolation: {
-    escapeValue: false, // React already escapes values
-  },
-  react: {
-    useSuspense: false, // Disable suspense for SSR compatibility
+    escapeValue: false,
   },
 });
+
+// --- Svelte store exports ---
+
+// Writable store that tracks current language
+export const locale = writable(i18n.language);
+
+// Reactive translation function store
+// This re-fires whenever locale changes
+export const t = derived(locale, () => {
+  return (key: string, options?: Record<string, unknown> | string): string =>
+    String(i18n.t(key, options as never));
+});
+
+// Keep locale store in sync with i18n
+i18n.on("languageChanged", (lng) => {
+  locale.set(lng);
+  const dir = getLanguageDirection(lng);
+  updateDocumentDirection(dir);
+  updateDocumentLanguage(lng);
+});
+
+// Helper to change language
+export async function changeLanguage(lng: string): Promise<void> {
+  await i18n.changeLanguage(lng);
+}
 
 // Sync language from app settings
 export const syncLanguageFromSettings = async () => {
@@ -96,7 +117,7 @@ export const syncLanguageFromSettings = async () => {
       }
     } else {
       // Fall back to system locale detection if no saved preference
-      const systemLocale = await locale();
+      const systemLocale = await osLocale();
       const supported = getSupportedLanguage(systemLocale);
       if (supported && supported !== i18n.language) {
         await i18n.changeLanguage(supported);
@@ -109,13 +130,6 @@ export const syncLanguageFromSettings = async () => {
 
 // Run language sync on init
 syncLanguageFromSettings();
-
-// Listen for language changes to update HTML dir and lang attributes
-i18n.on("languageChanged", (lng) => {
-  const dir = getLanguageDirection(lng);
-  updateDocumentDirection(dir);
-  updateDocumentLanguage(lng);
-});
 
 // Re-export RTL utilities for convenience
 export { getLanguageDirection, isRTLLanguage } from "@/lib/utils/rtl";

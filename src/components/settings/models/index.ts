@@ -1,1 +1,1 @@
-export { ModelsSettings } from "./ModelsSettings";
+export { default as ModelsSettings } from "./ModelsSettings.svelte";

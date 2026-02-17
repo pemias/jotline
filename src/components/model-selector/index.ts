@@ -1,4 +1,4 @@
-export { default } from "./ModelSelector";
-export { default as ModelStatusButton } from "./ModelStatusButton";
-export { default as ModelDropdown } from "./ModelDropdown";
-export { default as DownloadProgressDisplay } from "./DownloadProgressDisplay";
+export { default } from "./ModelSelector.svelte";
+export { default as ModelStatusButton } from "./ModelStatusButton.svelte";
+export { default as ModelDropdown } from "./ModelDropdown.svelte";
+export { default as DownloadProgressDisplay } from "./DownloadProgressDisplay.svelte";

@@ -1,13 +1,14 @@
-import type { TFunction } from "i18next";
 import type { ModelInfo } from "@/bindings";
+
+type TranslateFn = (key: string, options?: Record<string, unknown> | string) => string;
 
 /**
  * Get the translated name for a model
  * @param model - The model info object
- * @param t - The translation function from useTranslation
+ * @param t - The translation function
  * @returns The translated model name, or the original name if no translation exists
  */
-export function getTranslatedModelName(model: ModelInfo, t: TFunction): string {
+export function getTranslatedModelName(model: ModelInfo, t: TranslateFn): string {
   const translationKey = `onboarding.models.${model.id}.name`;
   const translated = t(translationKey, { defaultValue: "" });
   return translated !== "" ? translated : model.name;
@@ -21,7 +22,7 @@ export function getTranslatedModelName(model: ModelInfo, t: TFunction): string {
  */
 export function getTranslatedModelDescription(
   model: ModelInfo,
-  t: TFunction,
+  t: TranslateFn,
 ): string {
   // Custom models use a generic translation key
   if (model.is_custom) {

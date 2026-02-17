@@ -404,7 +404,8 @@
       },
       "soundTheme": {
         "label": "Sound Theme",
-        "description": "Choose a sound theme for recording start and stop feedback"
+        "description": "Choose a sound theme for recording start and stop feedback",
+        "preview": "Preview sound theme (plays start then stop)"
       },
       "wordCorrectionThreshold": {
         "title": "Word Correction Threshold",
@@ -451,9 +452,14 @@
         "bindingsReset": "Keyboard shortcuts were incompatible and reset to defaults"
       },
       "paths": {
+        "title": "Debug Paths",
+        "description": "Display internal file paths and directories for debugging purposes",
         "appData": "App Data:",
+        "appDataPath": "%APPDATA%/handy",
         "models": "Models:",
-        "settings": "Settings:"
+        "modelsPath": "%APPDATA%/handy/models",
+        "settings": "Settings:",
+        "settingsPath": "%APPDATA%/handy/settings_store.json"
       },
       "pasteDelay": {
         "title": "Paste Delay",
@@ -506,7 +512,10 @@
   },
   "common": {
     "loading": "Loading...",
+    "downloading": "Downloading...",
+    "downloadingCount": "{{count}} downloading...",
     "save": "Save",
+    "copy": "Copy",
     "cancel": "Cancel",
     "reset": "Reset",
     "add": "Add",
@@ -524,7 +533,8 @@
     "off": "Off",
     "yes": "Yes",
     "no": "No",
-    "noOptionsFound": "No options found"
+    "noOptionsFound": "No options found",
+    "moreInformation": "More information"
   },
   "accessibility": {
     "permissionsRequired": "Accessibility Permissions Required",
