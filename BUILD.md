@@ -20,8 +20,12 @@ This guide covers how to set up the development environment and build Jotline fr
 #### Windows
 
 - Microsoft C++ Build Tools
-- Visual Studio 2019/2022 with C++ development tools
-- Or Visual Studio Build Tools 2019/2022
+- Visual Studio 2019/2022/2025 with C++ development tools
+- [Vulkan SDK](https://vulkan.lunarg.com/)
+- **VS 2025 note:** The `cmake` crate used by `whisper-rs-sys` doesn't recognize VS 2025 yet. Set the Ninja generator before building:
+  ```powershell
+  $env:CMAKE_GENERATOR = "Ninja"
+  ```
 
 #### Linux
 
