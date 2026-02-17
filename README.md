@@ -16,6 +16,7 @@ Inherited from Handy and working today:
 - Cross-platform: macOS, Windows, Linux (see [platform notes](#platform-notes))
 - Tray app with global hotkey
 - GPU acceleration (Whisper via Vulkan/Metal) and CPU-optimized models (Parakeet)
+- Svelte 5 frontend (replaced Handy's React UI)
 
 ## Planned
 
@@ -29,7 +30,6 @@ What makes Jotline different from Handy:
 - **Markdown output** — notes are plain `.md` files, readable in any editor
 - **Semantic search** — find past notes by meaning, not keywords
 - **Auto-linking** — new notes automatically link to related past notes via embedding similarity
-- **Svelte frontend** — replacing the current React UI
 
 ## Development
 

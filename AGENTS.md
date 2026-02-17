@@ -4,7 +4,7 @@ This file provides guidance to AI agents when working with the Jotline codebase.
 
 ## Project Context
 
-Jotline is a voice-first note capture app, forked from [Handy](https://github.com/cjpais/handy) (MIT). The Rust backend (audio, VAD, transcription, model management) is inherited from Handy and largely kept intact. The frontend is being replaced: Handy's React/TypeScript UI is temporary and will be swapped for Svelte.
+Jotline is a voice-first note capture app, forked from [Handy](https://github.com/cjpais/handy) (MIT). The Rust backend (audio, VAD, transcription, model management) is inherited from Handy and largely kept intact. The frontend uses Svelte 5 with TypeScript, replacing Handy's original React UI.
 
 **Key identifiers:**
 - Package: `jotline` (package.json), `jotline` (Cargo.toml)
@@ -57,7 +57,7 @@ curl -o src-tauri/resources/models/silero_vad_v4.onnx https://blob.handy.compute
 
 ## Architecture Overview
 
-Tauri 2.x app: Rust backend + React/TypeScript frontend (temporary, migrating to Svelte).
+Tauri 2.x app: Rust backend + Svelte 5/TypeScript frontend.
 
 ### Backend Structure (src-tauri/src/)
 
@@ -74,15 +74,22 @@ Tauri 2.x app: Rust backend + React/TypeScript frontend (temporary, migrating to
 - `shortcut.rs` - Global keyboard shortcut handling
 - `settings.rs` - Application settings management
 
-### Frontend Structure (src/) — Temporary, will be replaced with Svelte
+### Frontend Structure (src/)
 
-- `App.tsx` - Main component with onboarding flow
-- `components/settings/` - Settings UI (35+ files)
-- `components/model-selector/` - Model management interface
-- `hooks/useSettings.ts`, `useModels.ts` - State management hooks
-- `stores/settingsStore.ts` - Zustand store for settings
+- `main.ts` - Entry point, mounts `App.svelte`
+- `App.svelte` - Root component with onboarding flow and section routing
+- `components/` - Svelte 5 components using runes (`$state`, `$derived`, `$effect`, `$props`)
+  - `settings/` - Settings UI (~40 `.svelte` files organized by section)
+  - `model-selector/` - Model management interface
+  - `onboarding/` - First-run model selection and permissions
+  - `ui/` - Shared primitives (Select, Dropdown, ToggleSwitch, Tooltip, etc.)
+  - `icons/` - SVG icon components
+  - `Sidebar.svelte` - Navigation sidebar
+- `stores/settingsStore.ts` - Svelte `writable`/`derived` stores for app settings
+- `stores/modelStore.ts` - Svelte stores for model state and download progress
+- `i18n/index.ts` - i18next with Svelte store wrappers (`t`, `locale`)
 - `bindings.ts` - Auto-generated Tauri type bindings (via tauri-specta)
-- `overlay/` - Recording overlay window code
+- `overlay/` - Recording overlay window (separate Svelte entry point)
 
 ### Key Patterns
 
@@ -92,16 +99,16 @@ Tauri 2.x app: Rust backend + React/TypeScript frontend (temporary, migrating to
 
 **Pipeline Processing:** Audio → VAD → Whisper/Parakeet → Text output → Clipboard/Paste
 
-**State Flow:** Zustand → Tauri Command → Rust State → Persistence (tauri-plugin-store)
+**State Flow:** Svelte stores → Tauri Command → Rust State → Persistence (tauri-plugin-store)
 
 ## Internationalization (i18n)
 
-All user-facing strings must use i18next translations. ESLint enforces this (no hardcoded strings in JSX).
+All user-facing strings must use i18next translations.
 
 **Adding new text:**
 
 1. Add key to `src/i18n/locales/en/translation.json`
-2. Use in component: `const { t } = useTranslation(); t('key.path')`
+2. Use in component: `import { t } from "@/i18n";` then `{$t('key.path')}` in the template
 
 ## Code Style
 
@@ -111,10 +118,13 @@ All user-facing strings must use i18next translations. ESLint enforces this (no 
 - Handle errors explicitly (avoid unwrap in production)
 - Use descriptive names, add doc comments for public APIs
 
-**TypeScript/React (temporary frontend):**
+**Svelte/TypeScript:**
 
+- Svelte 5 with runes — use `$state`, `$derived`, `$effect`, `$props` (not legacy `let`/`export let`)
+- Use `$derived.by(() => { ... })` for multi-statement derivations, `$derived(expr)` for simple expressions
+- Avoid naming variables `state` — it conflicts with the `$state` rune prefix
+- SVG attributes use kebab-case: `fill-rule`, `stroke-linecap`, `stroke-width` (not React's camelCase)
 - Strict TypeScript, avoid `any` types
-- Functional components with hooks
 - Tailwind CSS for styling
 - Path aliases: `@/` → `./src/`
 
