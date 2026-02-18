@@ -455,11 +455,8 @@
         "title": "Debug Paths",
         "description": "Display internal file paths and directories for debugging purposes",
         "appData": "App Data:",
-        "appDataPath": "%APPDATA%/handy",
         "models": "Models:",
-        "modelsPath": "%APPDATA%/handy/models",
-        "settings": "Settings:",
-        "settingsPath": "%APPDATA%/handy/settings_store.json"
+        "settings": "Settings:"
       },
       "pasteDelay": {
         "title": "Paste Delay",
@@ -488,6 +485,11 @@
       },
       "acknowledgments": {
         "title": "Acknowledgments",
+        "handy": {
+          "title": "Handy",
+          "description": "A free, open source, and extensible speech-to-text application that works completely offline",
+          "details": "Jotline is forked from Handy by cjpais. Thanks for building the foundation that made this project possible."
+        },
         "whisper": {
           "title": "Whisper.cpp",
           "description": "High-performance inference of OpenAI's Whisper automatic speech recognition model",

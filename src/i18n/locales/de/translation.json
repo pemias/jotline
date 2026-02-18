@@ -83,7 +83,7 @@
     },
     "permissions": {
       "title": "Berechtigungen erforderlich",
-      "description": "Handy benötigt einige Berechtigungen, um richtig zu funktionieren.",
+      "description": "Jotline benötigt einige Berechtigungen, um richtig zu funktionieren.",
       "microphone": {
         "title": "Mikrofonzugriff",
         "description": "Erforderlich, um Ihre Stimme für die Transkription zu hören."
@@ -157,7 +157,7 @@
     "general": {
       "title": "Allgemein",
       "shortcut": {
-        "title": "Handy-Tastenkürzel",
+        "title": "Jotline-Tastenkürzel",
         "description": "Tastenkürzel für die Sprachaufnahme konfigurieren",
         "loading": "Tastenkürzel werden geladen...",
         "none": "Keine Tastenkürzel konfiguriert",
@@ -238,11 +238,11 @@
       },
       "autostart": {
         "label": "Beim Start ausführen",
-        "description": "Handy automatisch beim Anmelden starten."
+        "description": "Jotline automatisch beim Anmelden starten."
       },
       "showTrayIcon": {
         "label": "Taskleistensymbol anzeigen",
-        "description": "Das Handy-Symbol in der Taskleiste anzeigen."
+        "description": "Das Jotline-Symbol in der Taskleiste anzeigen."
       },
       "overlay": {
         "title": "Overlay-Position",
@@ -400,7 +400,7 @@
       },
       "updateChecks": {
         "label": "Nach Updates suchen",
-        "description": "Automatisch nach neuen Versionen von Handy suchen"
+        "description": "Automatisch nach neuen Versionen von Jotline suchen"
       },
       "soundTheme": {
         "label": "Sound-Thema",
@@ -464,11 +464,11 @@
       "title": "Info",
       "version": {
         "title": "Version",
-        "description": "Aktuelle Version von Handy"
+        "description": "Aktuelle Version von Jotline"
       },
       "appDataDirectory": {
         "title": "App-Datenverzeichnis",
-        "description": "Speicherort der Handy-Daten"
+        "description": "Speicherort der Jotline-Daten"
       },
       "sourceCode": {
         "title": "Quellcode",
@@ -477,15 +477,20 @@
       },
       "supportDevelopment": {
         "title": "Entwicklung unterstützen",
-        "description": "Hilf uns, Handy weiterzuentwickeln",
+        "description": "Hilf uns, Jotline weiterzuentwickeln",
         "button": "Spenden"
       },
       "acknowledgments": {
         "title": "Danksagungen",
+        "handy": {
+          "title": "Handy",
+          "description": "Eine kostenlose, quelloffene und erweiterbare Sprache-zu-Text-Anwendung, die vollständig offline funktioniert",
+          "details": "Jotline ist ein Fork von Handy von cjpais. Danke für den Aufbau der Grundlage, die dieses Projekt möglich gemacht hat."
+        },
         "whisper": {
           "title": "Whisper.cpp",
           "description": "Hochleistungs-Inferenz des Whisper-Spracherkennungsmodells von OpenAI",
-          "details": "Handy verwendet Whisper.cpp für schnelle, lokale Sprach-zu-Text-Verarbeitung. Dank an Georgi Gerganov und die Mitwirkenden für ihre großartige Arbeit."
+          "details": "Jotline verwendet Whisper.cpp für schnelle, lokale Sprach-zu-Text-Verarbeitung. Dank an Georgi Gerganov und die Mitwirkenden für ihre großartige Arbeit."
         }
       }
     }
@@ -528,7 +533,7 @@
   },
   "accessibility": {
     "permissionsRequired": "Bedienungshilfen-Berechtigungen erforderlich",
-    "permissionsDescription": "Handy benötigt Bedienungshilfen-Berechtigungen, um transkribierten Text einzugeben.",
+    "permissionsDescription": "Jotline benötigt Bedienungshilfen-Berechtigungen, um transkribierten Text einzugeben.",
     "openSettings": "Systemeinstellungen öffnen",
     "dismiss": "Schließen"
   },
@@ -537,7 +542,7 @@
   },
   "appLanguage": {
     "title": "Anwendungssprache",
-    "description": "Sprache der Handy-Oberfläche ändern"
+    "description": "Sprache der Jotline-Oberfläche ändern"
   },
   "overlay": {
     "transcribing": "Transkribiere...",

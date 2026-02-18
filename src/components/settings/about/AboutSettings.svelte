@@ -58,6 +58,17 @@
 
   <SettingsGroup title={$t("settings.about.acknowledgments.title")}>
     <SettingContainer
+      title={$t("settings.about.acknowledgments.handy.title")}
+      description={$t("settings.about.acknowledgments.handy.description")}
+      grouped={true}
+      layout="stacked"
+    >
+      <div class="text-sm text-mid-gray">
+        {$t("settings.about.acknowledgments.handy.details")}
+      </div>
+    </SettingContainer>
+
+    <SettingContainer
       title={$t("settings.about.acknowledgments.whisper.title")}
       description={$t("settings.about.acknowledgments.whisper.description")}
       grouped={true}

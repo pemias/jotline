@@ -4,6 +4,7 @@
   import WordCorrectionThreshold from "./WordCorrectionThreshold.svelte";
   import LogLevelSelector from "./LogLevelSelector.svelte";
   import PasteDelay from "./PasteDelay.svelte";
+  import DebugPaths from "./DebugPaths.svelte";
   import SettingsGroup from "../../ui/SettingsGroup.svelte";
   import AlwaysOnMicrophone from "../AlwaysOnMicrophone.svelte";
   import SoundPicker from "../SoundPicker.svelte";
@@ -26,6 +27,7 @@
     />
     <WordCorrectionThreshold descriptionMode="tooltip" grouped={true} />
     <PasteDelay descriptionMode="tooltip" grouped={true} />
+    <DebugPaths descriptionMode="tooltip" grouped={true} />
     <AlwaysOnMicrophone descriptionMode="tooltip" grouped={true} />
     <ClamshellMicrophoneSelector descriptionMode="tooltip" grouped={true} />
     {#if !isLinux}
