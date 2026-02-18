@@ -7,6 +7,7 @@ This file provides guidance to AI agents when working with the Jotline codebase.
 Jotline is a voice-first note capture app, forked from [Handy](https://github.com/cjpais/handy) (MIT). The Rust backend (audio, VAD, transcription, model management) is inherited from Handy and largely kept intact. The frontend uses Svelte 5 with TypeScript, replacing Handy's original React UI.
 
 **Key identifiers:**
+
 - Package: `jotline` (package.json), `jotline` (Cargo.toml)
 - Lib crate: `jotline_lib`
 - Bundle ID: `com.jotline.app`
@@ -37,6 +38,8 @@ bun install
 bun run tauri dev
 # If cmake error on macOS:
 CMAKE_POLICY_VERSION_MINIMUM=3.5 bun run tauri dev
+# On Windows with VS 2025, cmake doesn't recognize the generator — use Ninja:
+CMAKE_GENERATOR=Ninja bun run tauri dev
 
 # Build for production
 bun run tauri build

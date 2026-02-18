@@ -51,9 +51,7 @@ export function getPostProcessProviderState(): PostProcessProviderState {
   const providers = currentSettings?.post_process_providers || [];
 
   const selectedProviderId =
-    currentSettings?.post_process_provider_id ||
-    providers[0]?.id ||
-    "openai";
+    currentSettings?.post_process_provider_id || providers[0]?.id || "openai";
 
   const selectedProvider =
     providers.find((provider) => provider.id === selectedProviderId) ||
@@ -72,8 +70,7 @@ export function getPostProcessProviderState(): PostProcessProviderState {
     label: provider.label,
   }));
 
-  const availableModelsRaw =
-    currentModelOptions[selectedProviderId] || [];
+  const availableModelsRaw = currentModelOptions[selectedProviderId] || [];
 
   const seen = new Set<string>();
   const modelOptionsList: ModelOption[] = [];
