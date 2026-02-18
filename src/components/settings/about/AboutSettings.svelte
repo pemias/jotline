@@ -24,13 +24,7 @@
     fetchVersion();
   });
 
-  const handleDonateClick = async () => {
-    try {
-      await openUrl("https://handy.computer/donate");
-    } catch (error) {
-      console.error("Failed to open donate link:", error);
-    }
-  };
+
 </script>
 
 <div class="max-w-3xl w-full mx-auto space-y-6">
@@ -45,16 +39,6 @@
     </SettingContainer>
 
     <SettingContainer
-      title={$t("settings.about.supportDevelopment.title")}
-      description={$t("settings.about.supportDevelopment.description")}
-      grouped={true}
-    >
-      <Button variant="primary" size="md" onclick={handleDonateClick}>
-        {$t("settings.about.supportDevelopment.button")}
-      </Button>
-    </SettingContainer>
-
-    <SettingContainer
       title={$t("settings.about.sourceCode.title")}
       description={$t("settings.about.sourceCode.description")}
       grouped={true}
@@ -62,7 +46,7 @@
       <Button
         variant="secondary"
         size="md"
-        onclick={() => openUrl("https://github.com/cjpais/Handy")}
+        onclick={() => openUrl("https://github.com/pemias/jotline")}
       >
         {$t("settings.about.sourceCode.button")}
       </Button>
