@@ -176,6 +176,8 @@ Access debug features: `Cmd+Shift+D` (macOS) or `Ctrl+Shift+D` (Windows/Linux)
 
 ## Platform Notes
 
+**macOS and Windows are the primary targets.** Linux is inherited from Handy and not actively supported — don't spend effort on Linux-specific fixes, packaging, or workarounds.
+
 - **macOS**: Metal acceleration, accessibility permissions required
 - **Windows**: Vulkan acceleration, code signing
-- **Linux**: OpenBLAS + Vulkan, limited Wayland support, overlay disabled by default
+- **Linux**: Not a supported target. Basic transcription works but overlays, global hotkeys, and context capture have fundamental Wayland limitations
