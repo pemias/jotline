@@ -56,15 +56,11 @@
   {grouped}
   layout="stacked"
 >
-  {#if loading}
-    <div class="animate-pulse">
-      <div class="h-8 bg-gray-100 rounded"></div>
-    </div>
-  {:else if error}
-    <div class="p-3 bg-red-50 border border-red-200 rounded text-xs text-red-600">
+  {#if error}
+    <p class="text-red-400 text-sm">
       {$t("errors.loadDirectory", { error })}
-    </div>
+    </p>
   {:else}
-    <PathDisplay path={logDir} onOpen={handleOpen} disabled={!logDir} />
+    <PathDisplay path={logDir} onOpen={handleOpen} disabled={loading || !logDir} />
   {/if}
 </SettingContainer>
