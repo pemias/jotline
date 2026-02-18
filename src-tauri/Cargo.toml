@@ -7,6 +7,10 @@ edition = "2021"
 license = "MIT"
 default-run = "jotline"
 
+[features]
+default = ["transcription"]
+transcription = ["dep:transcribe-rs"]
+
 [profile.dev]
 incremental = true # Compile your binary in smaller steps.
 
@@ -68,7 +72,7 @@ chrono = "0.4"
 rusqlite = { version = "0.37", features = ["bundled"] }
 tar = "0.4.44"
 flate2 = "1.0"
-transcribe-rs = { version = "0.2.5", features = ["whisper", "parakeet", "moonshine", "sense_voice"] }
+transcribe-rs = { version = "0.2.5", features = ["whisper", "parakeet", "moonshine", "sense_voice"], optional = true }
 handy-keys = "0.2.0"
 ferrous-opencc = "0.2.3"
 clap = { version = "4", features = ["derive"] }

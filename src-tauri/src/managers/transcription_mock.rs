@@ -1,20 +1,10 @@
-// CI-only mock TranscriptionManager - avoids whisper/Vulkan dependencies.
-// This file is copied over transcription.rs during CI tests.
-// Existing tests don't exercise transcription, so this is safe.
+// Mock TranscriptionManager — compiled when the `transcription` feature is disabled.
+// Avoids pulling in whisper/Vulkan/ONNX dependencies (used in CI).
 
 use crate::managers::model::ModelManager;
 use anyhow::Result;
-use serde::Serialize;
 use std::sync::Arc;
 use tauri::AppHandle;
-
-#[derive(Clone, Debug, Serialize)]
-pub struct ModelStateEvent {
-    pub event_type: String,
-    pub model_id: Option<String>,
-    pub model_name: Option<String>,
-    pub error: Option<String>,
-}
 
 #[derive(Clone)]
 pub struct TranscriptionManager {

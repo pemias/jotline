@@ -193,6 +193,7 @@ impl Default for PasteMethod {
 }
 
 impl ModelUnloadTimeout {
+    #[cfg(feature = "transcription")]
     pub fn to_minutes(self) -> Option<u64> {
         match self {
             ModelUnloadTimeout::Never => None,
@@ -206,6 +207,7 @@ impl ModelUnloadTimeout {
         }
     }
 
+    #[cfg(feature = "transcription")]
     pub fn to_seconds(self) -> Option<u64> {
         match self {
             ModelUnloadTimeout::Never => None,
