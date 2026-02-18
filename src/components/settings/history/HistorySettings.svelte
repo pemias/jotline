@@ -2,49 +2,14 @@
   import { t } from "@/i18n";
   import Button from "../../ui/Button.svelte";
   import { FolderOpen } from "lucide-svelte";
-  import { listen } from "@tauri-apps/api/event";
   import { convertFileSrc } from "@tauri-apps/api/core";
   import { readFile } from "@tauri-apps/plugin-fs";
-  import { commands, type HistoryEntry } from "@/bindings";
+  import { commands } from "@/bindings";
   import { type as osType } from "@tauri-apps/plugin-os";
+  import { historyEntries } from "@/stores/historyStore";
   import HistoryEntryRow from "./HistoryEntryRow.svelte";
 
-  let historyEntries = $state<HistoryEntry[]>([]);
-  let loading = $state(true);
-
   const currentOsType = osType();
-
-  const loadHistoryEntries = async () => {
-    try {
-      const result = await commands.getHistoryEntries();
-      if (result.status === "ok") {
-        historyEntries = result.data;
-      }
-    } catch (error) {
-      console.error("Failed to load history entries:", error);
-    } finally {
-      loading = false;
-    }
-  };
-
-  $effect(() => {
-    loadHistoryEntries();
-
-    const setupListener = async () => {
-      return await listen("history-updated", () => {
-        console.log("History updated, reloading entries...");
-        loadHistoryEntries();
-      });
-    };
-
-    let unlistenPromise = setupListener();
-
-    return () => {
-      unlistenPromise.then((unlisten) => {
-        if (unlisten) unlisten();
-      });
-    };
-  });
 
   const toggleSaved = async (id: number) => {
     try {
@@ -118,17 +83,13 @@
       </Button>
     </div>
     <div class="bg-background border border-mid-gray/20 rounded-lg overflow-visible">
-      {#if loading}
-        <div class="px-4 py-3 text-center text-text/60">
-          {$t("settings.history.loading")}
-        </div>
-      {:else if historyEntries.length === 0}
+      {#if $historyEntries.length === 0}
         <div class="px-4 py-3 text-center text-text/60">
           {$t("settings.history.empty")}
         </div>
       {:else}
         <div class="divide-y divide-mid-gray/20">
-          {#each historyEntries as entry (entry.id)}
+          {#each $historyEntries as entry (entry.id)}
             <HistoryEntryRow
               {entry}
               onToggleSaved={() => toggleSaved(entry.id)}
