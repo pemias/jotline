@@ -8,6 +8,7 @@
 
 <svg {width} {height} viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class={className}>
   <g
+    transform="scale(-1,1) translate(-20,0)"
     stroke="currentColor"
     stroke-linecap="round"
     stroke-linejoin="round"
