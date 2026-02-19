@@ -47,7 +47,7 @@
     <div class="flex items-center gap-1">
       <button
         onclick={handleCopyText}
-        class="text-text/50 hover:text-logo-primary hover:border-logo-primary transition-colors cursor-pointer"
+        class="text-text/50 hover:text-text transition-colors cursor-pointer"
         title={$t("settings.history.copyToClipboard")}
       >
         {#if showCopied}
@@ -59,8 +59,8 @@
       <button
         onclick={onToggleSaved}
         class="p-2 rounded-md transition-colors cursor-pointer {entry.saved
-          ? 'text-logo-primary hover:text-logo-primary/80'
-          : 'text-text/50 hover:text-logo-primary'}"
+          ? 'text-text hover:text-text/80'
+          : 'text-text/50 hover:text-text'}"
         title={entry.saved
           ? $t("settings.history.unsave")
           : $t("settings.history.save")}
@@ -73,7 +73,7 @@
       </button>
       <button
         onclick={handleDeleteEntry}
-        class="text-text/50 hover:text-logo-primary transition-colors cursor-pointer"
+        class="text-text/50 hover:text-text transition-colors cursor-pointer"
         title={$t("settings.history.delete")}
       >
         <Trash2 width={16} height={16} />

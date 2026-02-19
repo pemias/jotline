@@ -1,5 +1,5 @@
 <script lang="ts">
-  let { width = 24, height = 24, color = "#FAA2CA", class: className = "" }: {
+  let { width = 24, height = 24, color = "var(--color-background-ui)", class: className = "" }: {
     width?: number;
     height?: number;
     color?: string;

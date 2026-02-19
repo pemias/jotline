@@ -213,7 +213,7 @@
                 type="button"
                 onclick={() => (languageDropdownOpen = !languageDropdownOpen)}
                 class="flex items-center gap-1.5 px-3 py-1.5 text-sm font-medium rounded-lg transition-colors {languageFilter !== 'all'
-                  ? 'bg-logo-primary/20 text-logo-primary'
+                  ? 'bg-mid-gray/20 text-text font-semibold'
                   : 'bg-mid-gray/10 text-text/60 hover:bg-mid-gray/20'}"
               >
                 <Globe class="w-3.5 h-3.5" />
@@ -243,7 +243,7 @@
                         }
                       }}
                       placeholder={$t("settings.general.language.searchPlaceholder")}
-                      class="w-full px-2 py-1 text-sm bg-mid-gray/10 border border-mid-gray/40 rounded-md focus:outline-none focus:ring-1 focus:ring-logo-primary"
+                      class="w-full px-2 py-1 text-sm bg-mid-gray/10 border border-mid-gray/40 rounded-md focus:outline-none focus:ring-1 focus:ring-mid-gray"
                     />
                   </div>
                   <div class="max-h-48 overflow-y-auto">
@@ -255,7 +255,7 @@
                         languageSearch = "";
                       }}
                       class="w-full px-3 py-1.5 text-sm text-left transition-colors {languageFilter === 'all'
-                        ? 'bg-logo-primary/20 text-logo-primary font-semibold'
+                        ? 'bg-mid-gray/20 font-semibold'
                         : 'hover:bg-mid-gray/10'}"
                     >
                       {$t("settings.models.filters.allLanguages")}
@@ -269,7 +269,7 @@
                           languageSearch = "";
                         }}
                         class="w-full px-3 py-1.5 text-sm text-left transition-colors {languageFilter === lang.value
-                          ? 'bg-logo-primary/20 text-logo-primary font-semibold'
+                          ? 'bg-mid-gray/20 font-semibold'
                           : 'hover:bg-mid-gray/10'}"
                       >
                         {lang.label}

@@ -1,3 +1,7 @@
+:root {
+  --color-background-ui: #0D9488;
+}
+
 .recording-overlay {
   height: 36px;
   width: 172px;
@@ -41,7 +45,7 @@
 
 .bar {
   width: 6px;
-  background: #ffe5ee;
+  background: #a7f3d0;
   max-height: 20px;
   border-radius: 2px;
   transition: height 80ms linear;
@@ -86,7 +90,7 @@
 }
 
 .cancel-button:hover {
-  background: #faa2ca33;
+  background: #0d948833;
   transform: scale(1.05);
 }
 

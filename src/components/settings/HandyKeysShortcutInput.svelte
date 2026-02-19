@@ -255,14 +255,14 @@
       {#if isRecording}
         <div
           bind:this={shortcutRef}
-          class="px-2 py-1 text-sm font-semibold border border-logo-primary bg-logo-primary/30 rounded-md"
+          class="px-2 py-1 text-sm font-semibold border border-mid-gray bg-mid-gray/20 rounded-md"
         >
           {formatCurrentKeys()}
         </div>
       {:else}
         <!-- svelte-ignore a11y_click_events_have_key_events -->
         <div
-          class="px-2 py-1 text-sm font-semibold bg-mid-gray/10 border border-mid-gray/80 hover:bg-logo-primary/10 rounded-md cursor-pointer hover:border-logo-primary"
+          class="px-2 py-1 text-sm font-semibold bg-mid-gray/10 border border-mid-gray/80 hover:bg-mid-gray/15 rounded-md cursor-pointer hover:border-mid-gray"
           role="button"
           tabindex="0"
           onclick={startRecording}

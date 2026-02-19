@@ -218,7 +218,7 @@
         size="sm"
         onclick={handleDelete}
         title={$t("modelSelector.deleteModel", { modelName: displayName })}
-        class="flex items-center gap-1.5 ml-auto text-logo-primary/85 hover:text-logo-primary hover:bg-logo-primary/10"
+        class="flex items-center gap-1.5 ml-auto text-red-400 hover:text-red-300 hover:bg-red-500/10"
       >
         <Trash2 class="w-3.5 h-3.5" />
         <span>{$t("common.delete")}</span>

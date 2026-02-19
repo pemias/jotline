@@ -140,8 +140,8 @@
   }
 
   const baseBackground = "color-mix(in srgb, var(--color-mid-gray) 10%, transparent)";
-  const hoverBackground = "color-mix(in srgb, var(--color-logo-primary) 12%, transparent)";
-  const focusBackground = "color-mix(in srgb, var(--color-logo-primary) 20%, transparent)";
+  const hoverBackground = "color-mix(in srgb, var(--color-mid-gray) 15%, transparent)";
+  const focusBackground = "color-mix(in srgb, var(--color-mid-gray) 20%, transparent)";
   const neutralBorder = "color-mix(in srgb, var(--color-mid-gray) 80%, transparent)";
 </script>
 
@@ -259,14 +259,14 @@
   }
 
   .select-control:hover {
-    border-color: var(--color-logo-primary);
-    background-color: color-mix(in srgb, var(--color-logo-primary) 12%, transparent);
+    border-color: var(--color-mid-gray);
+    background-color: color-mix(in srgb, var(--color-mid-gray) 15%, transparent);
   }
 
   .select-control-focused {
-    border-color: var(--color-logo-primary);
-    box-shadow: 0 0 0 1px var(--color-logo-primary);
-    background-color: color-mix(in srgb, var(--color-logo-primary) 20%, transparent);
+    border-color: var(--color-mid-gray);
+    box-shadow: 0 0 0 1px var(--color-mid-gray);
+    background-color: color-mix(in srgb, var(--color-mid-gray) 20%, transparent);
   }
 
   .select-control-disabled {
@@ -324,7 +324,7 @@
   }
 
   .select-clear:hover {
-    color: var(--color-logo-primary);
+    color: var(--color-text);
   }
 
   .select-separator {
@@ -342,7 +342,7 @@
 
   .select-dropdown-indicator:hover,
   .select-dropdown-indicator-focused {
-    color: var(--color-logo-primary);
+    color: var(--color-text);
   }
 
   .select-menu {
@@ -368,11 +368,11 @@
   }
 
   .select-option-selected {
-    background-color: color-mix(in srgb, var(--color-logo-primary) 20%, transparent);
+    background-color: color-mix(in srgb, var(--color-mid-gray) 20%, transparent);
   }
 
   .select-option-focused:not(.select-option-selected) {
-    background-color: color-mix(in srgb, var(--color-logo-primary) 12%, transparent);
+    background-color: color-mix(in srgb, var(--color-mid-gray) 15%, transparent);
   }
 
   .select-option-disabled {

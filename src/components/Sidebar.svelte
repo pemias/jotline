@@ -62,7 +62,7 @@
       <!-- svelte-ignore a11y_no_static_element_interactions -->
       <div
         class="flex gap-2 items-center p-2 w-full rounded-lg cursor-pointer transition-colors {isActive
-          ? 'bg-logo-primary/80'
+          ? 'bg-mid-gray/20'
           : 'hover:bg-mid-gray/20 hover:opacity-100 opacity-85'}"
         onclick={() => onSectionChange(section.id)}
         onkeydown={(e: KeyboardEvent) => {

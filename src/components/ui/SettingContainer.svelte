@@ -74,7 +74,7 @@
           onclick={toggleTooltip}
         >
           <svg
-            class="w-4 h-4 text-mid-gray cursor-help hover:text-logo-primary transition-colors duration-200 select-none"
+            class="w-4 h-4 text-mid-gray cursor-help hover:text-text transition-colors duration-200 select-none"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -138,7 +138,7 @@
             onclick={toggleTooltip}
           >
             <svg
-              class="w-4 h-4 text-mid-gray cursor-help hover:text-logo-primary transition-colors duration-200 select-none"
+              class="w-4 h-4 text-mid-gray cursor-help hover:text-text transition-colors duration-200 select-none"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"

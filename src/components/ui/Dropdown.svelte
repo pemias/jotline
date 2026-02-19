@@ -61,7 +61,7 @@
     type="button"
     class="px-2 py-1 text-sm font-semibold bg-mid-gray/10 border border-mid-gray/80 rounded-md min-w-[200px] text-start flex items-center justify-between transition-all duration-150 {disabled
       ? 'opacity-50 cursor-not-allowed'
-      : 'hover:bg-logo-primary/10 cursor-pointer hover:border-logo-primary'}"
+      : 'hover:bg-mid-gray/15 cursor-pointer hover:border-mid-gray'}"
     onclick={handleToggle}
     {disabled}
   >
@@ -90,8 +90,8 @@
         {#each options as option (option.value)}
           <button
             type="button"
-            class="w-full px-2 py-1 text-sm text-start hover:bg-logo-primary/10 transition-colors duration-150 {selectedValue === option.value
-              ? 'bg-logo-primary/20 font-semibold'
+            class="w-full px-2 py-1 text-sm text-start hover:bg-mid-gray/15 transition-colors duration-150 {selectedValue === option.value
+              ? 'bg-mid-gray/20 font-semibold'
               : ''} {option.disabled ? 'opacity-50 cursor-not-allowed' : ''}"
             onclick={() => handleSelect(option.value)}
             disabled={option.disabled}

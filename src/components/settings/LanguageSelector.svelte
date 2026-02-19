@@ -95,7 +95,7 @@
         type="button"
         class="px-2 py-1 text-sm font-semibold bg-mid-gray/10 border border-mid-gray/80 rounded min-w-[200px] text-start flex items-center justify-between transition-all duration-150 {updating
           ? 'opacity-50 cursor-not-allowed'
-          : 'hover:bg-logo-primary/10 cursor-pointer hover:border-logo-primary'}"
+          : 'hover:bg-mid-gray/15 cursor-pointer hover:border-mid-gray'}"
         onclick={handleToggle}
         disabled={updating}
       >
@@ -125,7 +125,7 @@
               oninput={handleSearchChange}
               onkeydown={handleKeyDown}
               placeholder={$t("settings.general.language.searchPlaceholder")}
-              class="w-full px-2 py-1 text-sm bg-mid-gray/10 border border-mid-gray/40 rounded focus:outline-none focus:ring-1 focus:ring-logo-primary focus:border-logo-primary"
+              class="w-full px-2 py-1 text-sm bg-mid-gray/10 border border-mid-gray/40 rounded focus:outline-none focus:ring-1 focus:ring-mid-gray focus:border-mid-gray"
             />
           </div>
 
@@ -138,8 +138,8 @@
               {#each filteredLanguages as language (language.value)}
                 <button
                   type="button"
-                  class="w-full px-2 py-1 text-sm text-start hover:bg-logo-primary/10 transition-colors duration-150 {selectedLanguage === language.value
-                    ? 'bg-logo-primary/20 text-logo-primary font-semibold'
+                  class="w-full px-2 py-1 text-sm text-start hover:bg-mid-gray/15 transition-colors duration-150 {selectedLanguage === language.value
+                    ? 'bg-mid-gray/20 font-semibold'
                     : ''}"
                   onclick={() => handleLanguageSelect(language.value)}
                 >

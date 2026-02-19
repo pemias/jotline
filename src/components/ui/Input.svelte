@@ -16,7 +16,7 @@
   let interactiveClasses = $derived(
     disabled
       ? "opacity-60 cursor-not-allowed bg-mid-gray/10 border-mid-gray/40"
-      : "hover:bg-logo-primary/10 hover:border-logo-primary focus:outline-none focus:bg-logo-primary/20 focus:border-logo-primary"
+      : "hover:bg-mid-gray/15 hover:border-mid-gray focus:outline-none focus:bg-mid-gray/20 focus:border-mid-gray"
   );
 
   const variantClasses: Record<string, string> = {

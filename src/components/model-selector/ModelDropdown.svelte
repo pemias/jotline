@@ -39,7 +39,7 @@
           tabindex={0}
           role="button"
           class="w-full px-3 py-2 text-start hover:bg-mid-gray/10 transition-colors cursor-pointer focus:outline-none {currentModelId === model.id
-            ? 'bg-logo-primary/10 text-logo-primary'
+            ? 'bg-mid-gray/15 font-medium'
             : ''}"
         >
           <div class="flex items-center justify-between">
@@ -57,7 +57,7 @@
               </div>
             </div>
             {#if currentModelId === model.id}
-              <div class="text-xs text-logo-primary">
+              <div class="text-xs text-text/50">
                 {$t("modelSelector.active")}
               </div>
             {/if}
