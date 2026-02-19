@@ -4,7 +4,7 @@
   import type { ModelInfo } from "@/bindings";
   import type { ModelCardStatus } from "./ModelCard.svelte";
   import ModelCard from "./ModelCard.svelte";
-  import HandyTextLogo from "../icons/HandyTextLogo.svelte";
+
   import {
     models,
     downloadModel,
@@ -85,7 +85,6 @@
 
 <div class="h-screen w-screen flex flex-col p-6 gap-4 inset-0">
   <div class="flex flex-col items-center gap-2 shrink-0">
-    <HandyTextLogo width={200} />
     <p class="text-text/70 max-w-md font-medium mx-auto">
       {$t("onboarding.subtitle")}
     </p>

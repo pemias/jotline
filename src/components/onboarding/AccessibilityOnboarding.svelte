@@ -10,7 +10,7 @@
   import { toast } from "svelte-sonner";
   import { commands } from "@/bindings";
   import { refreshAudioDevices, refreshOutputDevices } from "@/stores/settingsStore";
-  import HandyTextLogo from "../icons/HandyTextLogo.svelte";
+
   import { Keyboard, Mic, Check, Loader2 } from "lucide-svelte";
 
   let {
@@ -173,10 +173,6 @@
   </div>
 {:else}
   <div class="h-screen w-screen flex flex-col p-6 gap-6 items-center justify-center">
-    <div class="flex flex-col items-center gap-2">
-      <HandyTextLogo width={200} />
-    </div>
-
     <div class="max-w-md w-full flex flex-col items-center gap-4">
       <div class="text-center mb-2">
         <h2 class="text-xl font-semibold text-text mb-2">

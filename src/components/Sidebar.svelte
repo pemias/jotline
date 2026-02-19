@@ -13,7 +13,6 @@
   import { t } from "@/i18n";
   import { settings } from "@/stores/settingsStore";
   import { FlaskConical, History, Info, Settings, SlidersHorizontal, Sparkles, Cpu, type Icon } from "lucide-svelte";
-  import HandyTextLogo from "./icons/HandyTextLogo.svelte";
 
   let {
     activeSection,
@@ -56,8 +55,7 @@
 </script>
 
 <div class="flex flex-col w-40 h-full border-e border-mid-gray/20 items-center px-2">
-  <HandyTextLogo width={120} class="m-4" />
-  <div class="flex flex-col w-full items-center gap-1 pt-2 border-t border-mid-gray/20">
+  <div class="flex flex-col w-full items-center gap-1 pt-4">
     {#each availableSections as section (section.id)}
       {@const Icon = section.icon}
       {@const isActive = activeSection === section.id}
