@@ -12,9 +12,8 @@
 <script lang="ts">
   import { t } from "@/i18n";
   import { settings } from "@/stores/settingsStore";
-  import { Cog, FlaskConical, History, Info, Sparkles, Cpu, type Icon } from "lucide-svelte";
+  import { FlaskConical, History, Info, Settings, SlidersHorizontal, Sparkles, Cpu, type Icon } from "lucide-svelte";
   import HandyTextLogo from "./icons/HandyTextLogo.svelte";
-  import HandyHand from "./icons/HandyHand.svelte";
 
   let {
     activeSection,
@@ -27,14 +26,14 @@
   interface SectionDef {
     id: SidebarSection;
     labelKey: string;
-    icon: typeof Icon | typeof HandyHand;
+    icon: typeof Icon;
     enabled: (s: typeof $settings) => boolean;
   }
 
   const sections: SectionDef[] = [
-    { id: "general", labelKey: "sidebar.general", icon: HandyHand, enabled: () => true },
+    { id: "general", labelKey: "sidebar.general", icon: Settings, enabled: () => true },
     { id: "models", labelKey: "sidebar.models", icon: Cpu, enabled: () => true },
-    { id: "advanced", labelKey: "sidebar.advanced", icon: Cog, enabled: () => true },
+    { id: "advanced", labelKey: "sidebar.advanced", icon: SlidersHorizontal, enabled: () => true },
     {
       id: "postprocessing",
       labelKey: "sidebar.postProcessing",
