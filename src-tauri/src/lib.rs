@@ -272,6 +272,7 @@ pub fn run(cli_args: CliArgs) {
         shortcut::change_paste_method_setting,
         shortcut::get_available_typing_tools,
         shortcut::change_typing_tool_setting,
+        shortcut::change_external_script_path_setting,
         shortcut::change_clipboard_handling_setting,
         shortcut::change_auto_submit_setting,
         shortcut::change_auto_submit_key_setting,
@@ -356,6 +357,7 @@ pub fn run(cli_args: CliArgs) {
         .expect("Failed to export typescript bindings");
 
     let builder = tauri::Builder::default()
+        .device_event_filter(tauri::DeviceEventFilter::Always)
         .plugin(tauri_plugin_dialog::init())
         .plugin(
             LogBuilder::new()
