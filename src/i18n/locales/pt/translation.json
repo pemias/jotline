@@ -2,7 +2,6 @@
   "tray": {
     "settings": "Configurações...",
     "checkUpdates": "Verificar Atualizações...",
-    "copyLastTranscript": "Copiar última transcrição",
     "unloadModel": "Descarregar modelo",
     "quit": "Sair",
     "cancel": "Cancelar"
@@ -12,7 +11,6 @@
     "models": "Modelos",
     "advanced": "Avançado",
     "postProcessing": "Pós-Processamento",
-    "history": "Histórico",
     "debug": "Depuração",
     "about": "Sobre"
   },
@@ -225,7 +223,6 @@
         "app": "Aplicativo",
         "output": "Saída",
         "transcription": "Transcrição",
-        "history": "Histórico",
         "experimental": "Experimental"
       },
       "experimentalToggle": {
@@ -380,17 +377,6 @@
         "createFirst": "Clique em 'Criar Novo Prompt' acima para criar seu primeiro prompt de pós-processamento."
       }
     },
-    "history": {
-      "title": "Histórico",
-      "openFolder": "Abrir Pasta de Gravações",
-      "loading": "Carregando histórico...",
-      "empty": "Nenhuma transcrição ainda. Comece a gravar para construir seu histórico!",
-      "copyToClipboard": "Copiar transcrição para área de transferência",
-      "save": "Salvar transcrição",
-      "unsave": "Remover dos salvos",
-      "delete": "Excluir entrada",
-      "deleteError": "Falha ao excluir entrada. Por favor, tente novamente."
-    },
     "debug": {
       "title": "Depuração",
       "logDirectory": {
@@ -412,21 +398,6 @@
       "wordCorrectionThreshold": {
         "title": "Limite de Correção de Palavras",
         "description": "Sensibilidade para correções de palavras personalizadas"
-      },
-      "historyLimit": {
-        "title": "Limite de Histórico",
-        "description": "Número máximo de entradas de histórico a manter",
-        "entries": "entradas"
-      },
-      "recordingRetention": {
-        "title": "Excluir Gravações Automaticamente",
-        "description": "Excluir automaticamente gravações antigas para economizar espaço",
-        "never": "Nunca",
-        "preserveLimit": "Manter as últimas {{count}}",
-        "days3": "Após 3 dias",
-        "weeks2": "Após 2 semanas",
-        "months3": "Após 3 meses",
-        "placeholder": "Selecionar período de retenção..."
       },
       "alwaysOnMicrophone": {
         "label": "Microfone Sempre Ativo",

@@ -2,7 +2,6 @@
   "tray": {
     "settings": "Impostazioni...",
     "checkUpdates": "Verifica aggiornamenti...",
-    "copyLastTranscript": "Copia l'ultima trascrizione",
     "unloadModel": "Scarica modello",
     "quit": "Esci",
     "cancel": "Annulla"
@@ -12,7 +11,6 @@
     "models": "Modelli",
     "advanced": "Avanzate",
     "postProcessing": "Post-Elaborazione",
-    "history": "Cronologia",
     "debug": "Debug",
     "about": "Informazioni"
   },
@@ -225,7 +223,6 @@
         "app": "App",
         "output": "Output",
         "transcription": "Trascrizione",
-        "history": "Cronologia",
         "experimental": "Sperimentale"
       },
       "experimentalToggle": {
@@ -380,17 +377,6 @@
         "createFirst": "Clicca 'Crea un nuovo prompt' qui sopra per creare il tuo primo prompt di post-elaborazione."
       }
     },
-    "history": {
-      "title": "Cronologia",
-      "openFolder": "Apri la cartella delle registrazioni",
-      "loading": "Caricamento cronologia...",
-      "empty": "Non ci sono ancora trascrizioni. Comincia a registrare per costruire la tua cronologia!",
-      "copyToClipboard": "Copia la trascrizione negli appunti",
-      "save": "Salva la trascrizione",
-      "unsave": "Rimuovi dai salvataggi",
-      "delete": "Elimina elemento",
-      "deleteError": "Errore nell'eliminazione dell'elemento. Per favore, prova di nuovo."
-    },
     "debug": {
       "title": "Debug",
       "logDirectory": {
@@ -412,21 +398,6 @@
       "wordCorrectionThreshold": {
         "title": "Soglia di Correzione Parole",
         "description": "Sensibilità per la correzione delle parole personalizzate"
-      },
-      "historyLimit": {
-        "title": "Limite della Cronologia",
-        "description": "Massimo numero di elementi da conservare nella cronologia",
-        "entries": "elementi"
-      },
-      "recordingRetention": {
-        "title": "Salvataggio delle Registrazioni",
-        "description": "Per quanto conservare le registrazioni audio",
-        "never": "Mai",
-        "preserveLimit": "Conserva {{count}} Registrazioni",
-        "days3": "Dopo 3 Giorni",
-        "weeks2": "Dopo 2 Settimane",
-        "months3": "Dopo 3 Mesi",
-        "placeholder": "Seleziona periodo di salvataggio..."
       },
       "alwaysOnMicrophone": {
         "label": "Microfono Sempre Attivo",

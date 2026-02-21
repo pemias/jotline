@@ -17,7 +17,6 @@
   import ModelsSettings from "./components/settings/models/ModelsSettings.svelte";
   import AdvancedSettings from "./components/settings/advanced/AdvancedSettings.svelte";
   import PostProcessingSettings from "./components/settings/post-processing/PostProcessingSettings.svelte";
-  import HistorySettings from "./components/settings/history/HistorySettings.svelte";
   import DebugSettings from "./components/settings/debug/DebugSettings.svelte";
   import AboutSettings from "./components/settings/about/AboutSettings.svelte";
   import {
@@ -167,8 +166,6 @@
               <AdvancedSettings />
             {:else if currentSection === "postprocessing"}
               <PostProcessingSettings />
-            {:else if currentSection === "history"}
-              <HistorySettings />
             {:else if currentSection === "debug"}
               <DebugSettings />
             {:else if currentSection === "about"}

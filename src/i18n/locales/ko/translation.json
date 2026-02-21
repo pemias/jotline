@@ -2,7 +2,6 @@
   "tray": {
     "settings": "설정...",
     "checkUpdates": "업데이트 확인...",
-    "copyLastTranscript": "마지막 녹음 내용 복사",
     "unloadModel": "모델 언로드",
     "quit": "종료",
     "cancel": "취소"
@@ -12,7 +11,6 @@
     "models": "모델",
     "advanced": "고급",
     "postProcessing": "후처리",
-    "history": "히스토리",
     "debug": "디버그",
     "about": "정보"
   },
@@ -225,7 +223,6 @@
         "app": "앱",
         "output": "출력",
         "transcription": "전사",
-        "history": "히스토리",
         "experimental": "실험적"
       },
       "experimentalToggle": {
@@ -380,17 +377,6 @@
         "createFirst": "첫 번째 후처리 프롬프트를 만들려면 위의 '새 프롬프트 만들기'를 클릭하세요."
       }
     },
-    "history": {
-      "title": "히스토리",
-      "openFolder": "녹음 폴더 열기",
-      "loading": "히스토리 로딩 중...",
-      "empty": "아직 변환된 내용이 없습니다. 녹음을 시작하여 히스토리를 만드세요!",
-      "copyToClipboard": "녹음 내용을 클립보드에 복사",
-      "save": "변환된 텍스트 저장",
-      "unsave": "저장에서 제거",
-      "delete": "항목 삭제",
-      "deleteError": "항목 삭제에 실패했습니다. 다시 시도해주세요."
-    },
     "debug": {
       "title": "디버그",
       "logDirectory": {
@@ -412,21 +398,6 @@
       "wordCorrectionThreshold": {
         "title": "단어 수정 임계값",
         "description": "사용자 정의 단어 수정의 민감도"
-      },
-      "historyLimit": {
-        "title": "히스토리 제한",
-        "description": "보관할 최대 히스토리 항목 수",
-        "entries": "항목"
-      },
-      "recordingRetention": {
-        "title": "녹음 자동 삭제",
-        "description": "공간을 절약하기 위해 오래된 녹음을 자동으로 삭제합니다",
-        "never": "안 함",
-        "preserveLimit": "최근 {{count}}개 유지",
-        "days3": "3일 후",
-        "weeks2": "2주 후",
-        "months3": "3개월 후",
-        "placeholder": "보관 기간 선택..."
       },
       "alwaysOnMicrophone": {
         "label": "항상 켜진 마이크",

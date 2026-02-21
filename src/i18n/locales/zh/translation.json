@@ -2,7 +2,6 @@
   "tray": {
     "settings": "设置...",
     "checkUpdates": "检查更新...",
-    "copyLastTranscript": "复制最新转录",
     "unloadModel": "卸载模型",
     "quit": "退出",
     "cancel": "取消"
@@ -12,7 +11,6 @@
     "models": "模型",
     "advanced": "高级",
     "postProcessing": "后处理",
-    "history": "历史记录",
     "debug": "调试",
     "about": "关于"
   },
@@ -225,7 +223,6 @@
         "app": "应用",
         "output": "输出",
         "transcription": "转录",
-        "history": "历史",
         "experimental": "实验性"
       },
       "experimentalToggle": {
@@ -380,17 +377,6 @@
         "createFirst": "点击上方的「创建新提示词」来创建您的第一个后处理提示词。"
       }
     },
-    "history": {
-      "title": "历史记录",
-      "openFolder": "打开录音文件夹",
-      "loading": "加载历史记录中...",
-      "empty": "还没有转录记录。开始录制以建立您的历史记录！",
-      "copyToClipboard": "复制转录到剪贴板",
-      "save": "保存转录",
-      "unsave": "从已保存中移除",
-      "delete": "删除条目",
-      "deleteError": "删除条目失败，请重试。"
-    },
     "debug": {
       "title": "调试",
       "logDirectory": {
@@ -412,21 +398,6 @@
       "wordCorrectionThreshold": {
         "title": "词汇修正阈值",
         "description": "自定义词汇修正的灵敏度"
-      },
-      "historyLimit": {
-        "title": "历史记录上限",
-        "description": "保留的最大历史条目数",
-        "entries": "条"
-      },
-      "recordingRetention": {
-        "title": "自动删除录音",
-        "description": "自动删除旧录音以节省空间",
-        "never": "从不",
-        "preserveLimit": "保留最新 {{count}} 条",
-        "days3": "3 天后",
-        "weeks2": "2 周后",
-        "months3": "3 个月后",
-        "placeholder": "选择保留期限..."
       },
       "alwaysOnMicrophone": {
         "label": "麦克风常开",

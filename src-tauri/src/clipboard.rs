@@ -583,8 +583,8 @@ fn send_return_key(enigo: &mut Enigo, key_type: AutoSubmitKey) -> Result<(), Str
     Ok(())
 }
 
-fn should_send_auto_submit(auto_submit: bool, paste_method: PasteMethod) -> bool {
-    auto_submit && paste_method != PasteMethod::None
+fn should_send_auto_submit(auto_submit: bool, _paste_method: PasteMethod) -> bool {
+    auto_submit
 }
 
 pub fn paste(text: String, app_handle: AppHandle) -> Result<(), String> {
@@ -615,9 +615,6 @@ pub fn paste(text: String, app_handle: AppHandle) -> Result<(), String> {
 
     // Perform the paste operation
     match paste_method {
-        PasteMethod::None => {
-            info!("PasteMethod::None selected - skipping paste action");
-        }
         PasteMethod::Direct => {
             paste_direct(
                 &mut enigo,
@@ -669,11 +666,6 @@ mod tests {
     fn auto_submit_requires_setting_enabled() {
         assert!(!should_send_auto_submit(false, PasteMethod::CtrlV));
         assert!(!should_send_auto_submit(false, PasteMethod::Direct));
-    }
-
-    #[test]
-    fn auto_submit_skips_none_paste_method() {
-        assert!(!should_send_auto_submit(true, PasteMethod::None));
     }
 
     #[test]

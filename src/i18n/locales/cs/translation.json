@@ -2,7 +2,6 @@
   "tray": {
     "settings": "Nastavení...",
     "checkUpdates": "Zkontrolovat aktualizace...",
-    "copyLastTranscript": "Zkopírovat poslední přepis",
     "unloadModel": "Uvolnit model",
     "quit": "Ukončit",
     "cancel": "Zrušit"
@@ -12,7 +11,6 @@
     "models": "Modely",
     "advanced": "Pokročilé",
     "postProcessing": "Následné zpracování",
-    "history": "Historie",
     "debug": "Ladění",
     "about": "O aplikaci"
   },
@@ -225,7 +223,6 @@
         "app": "Aplikace",
         "output": "Výstup",
         "transcription": "Přepis",
-        "history": "Historie",
         "experimental": "Experimentální"
       },
       "experimentalToggle": {
@@ -380,17 +377,6 @@
         "createFirst": "Klikněte nahoře na 'Vytvořit nový prompt' a vytvořte svůj první prompt pro následné zpracování."
       }
     },
-    "history": {
-      "title": "Historie",
-      "openFolder": "Otevřít složku nahrávek",
-      "loading": "Načítám historii...",
-      "empty": "Zatím žádné přepisy. Začněte nahrávat a vytvořte si historii!",
-      "copyToClipboard": "Kopírovat přepis do schránky",
-      "save": "Uložit přepis",
-      "unsave": "Odebrat z uložených",
-      "delete": "Smazat záznam",
-      "deleteError": "Nepodařilo se smazat záznam. Zkuste to prosím znovu."
-    },
     "debug": {
       "title": "Ladění",
       "logDirectory": {
@@ -412,21 +398,6 @@
       "wordCorrectionThreshold": {
         "title": "Práh korekce slov",
         "description": "Citlivost pro opravy vlastních slov"
-      },
-      "historyLimit": {
-        "title": "Limit historie",
-        "description": "Maximální počet záznamů historie k uchování",
-        "entries": "záznamů"
-      },
-      "recordingRetention": {
-        "title": "Automatické mazání nahrávek",
-        "description": "Automaticky mazat staré nahrávky pro úsporu místa",
-        "never": "Nikdy",
-        "preserveLimit": "Ponechat posledních {{count}}",
-        "days3": "Po 3 dnech",
-        "weeks2": "Po 2 týdnech",
-        "months3": "Po 3 měsících",
-        "placeholder": "Vyberte dobu uchování..."
       },
       "alwaysOnMicrophone": {
         "label": "Vždy zapnutý mikrofon",

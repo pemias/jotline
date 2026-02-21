@@ -2,7 +2,6 @@
   "tray": {
     "settings": "Settings...",
     "checkUpdates": "Check for Updates...",
-    "copyLastTranscript": "Copy Last Transcript",
     "unloadModel": "Unload Model",
     "quit": "Quit",
     "cancel": "Cancel"
@@ -12,7 +11,6 @@
     "models": "Models",
     "advanced": "Advanced",
     "postProcessing": "Post Process",
-    "history": "History",
     "debug": "Debug",
     "about": "About"
   },
@@ -225,7 +223,6 @@
         "app": "App",
         "output": "Output",
         "transcription": "Transcription",
-        "history": "History",
         "experimental": "Experimental"
       },
       "experimentalToggle": {
@@ -255,13 +252,12 @@
       },
       "pasteMethod": {
         "title": "Paste Method",
-        "description": "Choose how text is inserted. Direct: simulates typing via system input. None: skips paste, only updates history/clipboard.",
+        "description": "Choose how text is inserted. Direct: simulates typing via system input.",
         "options": {
           "clipboard": "Clipboard ({{modifier}}+V)",
           "clipboardCtrlShiftV": "Clipboard (Ctrl+Shift+V)",
           "clipboardShiftInsert": "Clipboard (Shift+Insert)",
           "direct": "Direct",
-          "none": "None",
           "externalScript": "External Script"
         },
         "externalScriptPlaceholder": "/path/to/your/script.sh"
@@ -380,17 +376,6 @@
         "createFirst": "Click 'Create New Prompt' above to create your first post-processing prompt."
       }
     },
-    "history": {
-      "title": "History",
-      "openFolder": "Open Recordings Folder",
-      "loading": "Loading history...",
-      "empty": "No transcriptions yet. Start recording to build your history!",
-      "copyToClipboard": "Copy transcription to clipboard",
-      "save": "Save transcription",
-      "unsave": "Remove from saved",
-      "delete": "Delete entry",
-      "deleteError": "Failed to delete entry. Please try again."
-    },
     "debug": {
       "title": "Debug",
       "logDirectory": {
@@ -413,21 +398,6 @@
       "wordCorrectionThreshold": {
         "title": "Word Correction Threshold",
         "description": "Sensitivity for custom word corrections"
-      },
-      "historyLimit": {
-        "title": "History Limit",
-        "description": "Maximum number of history entries to keep",
-        "entries": "entries"
-      },
-      "recordingRetention": {
-        "title": "Auto-Delete Recordings",
-        "description": "Automatically delete old recordings to save space",
-        "never": "Never",
-        "preserveLimit": "Keep latest {{count}}",
-        "days3": "After 3 days",
-        "weeks2": "After 2 weeks",
-        "months3": "After 3 months",
-        "placeholder": "Select retention period..."
       },
       "alwaysOnMicrophone": {
         "label": "Always-On Microphone",

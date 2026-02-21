@@ -2,7 +2,6 @@
   "tray": {
     "settings": "Cài đặt...",
     "checkUpdates": "Kiểm tra cập nhật...",
-    "copyLastTranscript": "Sao chép bản chép lời mới nhất",
     "unloadModel": "Dỡ mô hình",
     "quit": "Thoát",
     "cancel": "Hủy"
@@ -12,7 +11,6 @@
     "models": "Mô hình",
     "advanced": "Nâng cao",
     "postProcessing": "Xử lý sau",
-    "history": "Lịch sử",
     "debug": "Gỡ lỗi",
     "about": "Giới thiệu"
   },
@@ -225,7 +223,6 @@
         "app": "Ứng dụng",
         "output": "Đầu ra",
         "transcription": "Chuyển đổi",
-        "history": "Lịch sử",
         "experimental": "Thử nghiệm"
       },
       "experimentalToggle": {
@@ -380,17 +377,6 @@
         "createFirst": "Nhấn 'Tạo Prompt mới' ở trên để tạo prompt xử lý sau đầu tiên của bạn."
       }
     },
-    "history": {
-      "title": "Lịch sử",
-      "openFolder": "Mở thư mục ghi âm",
-      "loading": "Đang tải lịch sử...",
-      "empty": "Chưa có bản ghi nào. Bắt đầu ghi âm để xây dựng lịch sử của bạn!",
-      "copyToClipboard": "Sao chép bản ghi vào clipboard",
-      "save": "Lưu bản ghi",
-      "unsave": "Xóa khỏi đã lưu",
-      "delete": "Xóa mục",
-      "deleteError": "Không thể xóa mục. Vui lòng thử lại."
-    },
     "debug": {
       "title": "Gỡ lỗi",
       "logDirectory": {
@@ -412,21 +398,6 @@
       "wordCorrectionThreshold": {
         "title": "Ngưỡng sửa từ",
         "description": "Độ nhạy cho việc sửa từ tùy chỉnh"
-      },
-      "historyLimit": {
-        "title": "Giới hạn lịch sử",
-        "description": "Số lượng mục lịch sử tối đa cần giữ",
-        "entries": "mục"
-      },
-      "recordingRetention": {
-        "title": "Tự động xóa ghi âm",
-        "description": "Tự động xóa các bản ghi âm cũ để tiết kiệm dung lượng",
-        "never": "Không bao giờ",
-        "preserveLimit": "Giữ {{count}} bản mới nhất",
-        "days3": "Sau 3 ngày",
-        "weeks2": "Sau 2 tuần",
-        "months3": "Sau 3 tháng",
-        "placeholder": "Chọn thời gian lưu giữ..."
       },
       "alwaysOnMicrophone": {
         "label": "Micrô luôn bật",

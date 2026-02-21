@@ -2,7 +2,6 @@
   "tray": {
     "settings": "Ustawienia...",
     "checkUpdates": "Sprawdź aktualizacje...",
-    "copyLastTranscript": "Kopiuj ostatnią transkrypcję",
     "unloadModel": "Zwolnij model",
     "quit": "Zamknij",
     "cancel": "Anuluj"
@@ -12,7 +11,6 @@
     "models": "Modele",
     "advanced": "Zaawansowane",
     "postProcessing": "Postproces",
-    "history": "Historia",
     "debug": "Debugowanie",
     "about": "O programie"
   },
@@ -225,7 +223,6 @@
         "app": "Aplikacja",
         "output": "Wyjście",
         "transcription": "Transkrypcja",
-        "history": "Historia",
         "experimental": "Eksperymentalne"
       },
       "experimentalToggle": {
@@ -380,17 +377,6 @@
         "createFirst": "Kliknij 'Utwórz nowy prompt' powyżej, aby utworzyć pierwszy prompt postprocessingu."
       }
     },
-    "history": {
-      "title": "Historia",
-      "openFolder": "Otwórz folder nagrań",
-      "loading": "Wczytywanie historii...",
-      "empty": "Brak transkrypcji. Rozpocznij nagrywanie, aby zbudować historię!",
-      "copyToClipboard": "Kopiuj transkrypcję do schowka",
-      "save": "Zapisz transkrypcję",
-      "unsave": "Usuń z zapisanych",
-      "delete": "Usuń wpis",
-      "deleteError": "Nie udało się usunąć wpisu. Spróbuj ponownie."
-    },
     "debug": {
       "title": "Debugowanie",
       "logDirectory": {
@@ -412,21 +398,6 @@
       "wordCorrectionThreshold": {
         "title": "Próg korekty słów",
         "description": "Czułość dla własnych korekt słów"
-      },
-      "historyLimit": {
-        "title": "Limit historii",
-        "description": "Maksymalna liczba wpisów w historii",
-        "entries": "wpisy"
-      },
-      "recordingRetention": {
-        "title": "Automatyczne usuwanie nagrań",
-        "description": "Automatycznie usuwaj stare nagrania, aby zaoszczędzić miejsce",
-        "never": "Nigdy",
-        "preserveLimit": "Zachowaj ostatnie {{count}}",
-        "days3": "Po 3 dniach",
-        "weeks2": "Po 2 tygodniach",
-        "months3": "Po 3 miesiącach",
-        "placeholder": "Wybierz okres retencji..."
       },
       "alwaysOnMicrophone": {
         "label": "Mikrofon zawsze aktywny",

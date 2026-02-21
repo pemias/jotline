@@ -2,7 +2,6 @@
 export { default as GeneralSettings } from "./general/GeneralSettings.svelte";
 export { default as AdvancedSettings } from "./advanced/AdvancedSettings.svelte";
 export { default as DebugSettings } from "./debug/DebugSettings.svelte";
-export { default as HistorySettings } from "./history/HistorySettings.svelte";
 export { default as AboutSettings } from "./about/AboutSettings.svelte";
 export { default as PostProcessingSettings } from "./post-processing/PostProcessingSettings.svelte";
 export { default as ModelsSettings } from "./models/ModelsSettings.svelte";
@@ -26,7 +25,5 @@ export { default as PostProcessingSettingsPrompts } from "./post-processing/Post
 export { default as AppDataDirectory } from "./AppDataDirectory.svelte";
 export { default as ModelUnloadTimeoutSetting } from "./ModelUnloadTimeout.svelte";
 export { default as StartHidden } from "./StartHidden.svelte";
-export { default as HistoryLimit } from "./HistoryLimit.svelte";
-export { default as RecordingRetentionPeriodSelector } from "./RecordingRetentionPeriod.svelte";
 export { default as AutostartToggle } from "./AutostartToggle.svelte";
 export { default as UpdateChecksToggle } from "./UpdateChecksToggle.svelte";

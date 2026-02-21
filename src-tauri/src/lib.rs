@@ -25,7 +25,6 @@ use tauri_specta::{collect_commands, Builder};
 
 use env_filter::Builder as EnvFilterBuilder;
 use managers::audio::AudioRecordingManager;
-use managers::history::HistoryManager;
 use managers::model::ModelManager;
 use managers::transcription::TranscriptionManager;
 #[cfg(unix)]
@@ -120,14 +119,10 @@ fn initialize_core_logic(app_handle: &AppHandle) {
         TranscriptionManager::new(app_handle, model_manager.clone())
             .expect("Failed to initialize transcription manager"),
     );
-    let history_manager =
-        Arc::new(HistoryManager::new(app_handle).expect("Failed to initialize history manager"));
-
     // Add managers to Tauri's managed state
     app_handle.manage(recording_manager.clone());
     app_handle.manage(model_manager.clone());
     app_handle.manage(transcription_manager.clone());
-    app_handle.manage(history_manager.clone());
 
     // Note: Shortcuts are NOT initialized here.
     // The frontend is responsible for calling the `initialize_shortcuts` command
@@ -176,9 +171,6 @@ fn initialize_core_logic(app_handle: &AppHandle) {
                     show_main_window(app);
                     let _ = app.emit("check-for-updates", ());
                 }
-            }
-            "copy_last_transcript" => {
-                tray::copy_last_transcript(app);
             }
             "unload_model" => {
                 let transcription_manager = app.state::<Arc<TranscriptionManager>>();
@@ -306,7 +298,6 @@ pub fn run(cli_args: CliArgs) {
         commands::get_default_settings,
         commands::get_log_dir_path,
         commands::set_log_level,
-        commands::open_recordings_folder,
         commands::open_log_dir,
         commands::open_app_data_dir,
         commands::check_apple_intelligence_available,
@@ -339,12 +330,6 @@ pub fn run(cli_args: CliArgs) {
         commands::transcription::set_model_unload_timeout,
         commands::transcription::get_model_load_status,
         commands::transcription::unload_model_manually,
-        commands::history::get_history_entries,
-        commands::history::toggle_history_entry_saved,
-        commands::history::get_audio_file_path,
-        commands::history::delete_history_entry,
-        commands::history::update_history_limit,
-        commands::history::update_recording_retention_period,
         helpers::clamshell::is_laptop,
     ]);
 

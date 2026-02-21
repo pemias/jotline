@@ -4,7 +4,6 @@
     | "models"
     | "advanced"
     | "postprocessing"
-    | "history"
     | "debug"
     | "about";
 </script>
@@ -12,7 +11,7 @@
 <script lang="ts">
   import { t } from "@/i18n";
   import { settings } from "@/stores/settingsStore";
-  import { FlaskConical, History, Info, Settings, SlidersHorizontal, Sparkles, Cpu, type Icon } from "lucide-svelte";
+  import { FlaskConical, Info, Settings, SlidersHorizontal, Sparkles, Cpu, type Icon } from "lucide-svelte";
 
   let {
     activeSection,
@@ -39,7 +38,6 @@
       icon: Sparkles,
       enabled: (s) => s?.post_process_enabled ?? false,
     },
-    { id: "history", labelKey: "sidebar.history", icon: History, enabled: () => true },
     {
       id: "debug",
       labelKey: "sidebar.debug",

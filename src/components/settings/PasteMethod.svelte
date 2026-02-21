@@ -26,10 +26,6 @@
         value: "direct",
         label: $t("settings.advanced.pasteMethod.options.direct"),
       },
-      {
-        value: "none",
-        label: $t("settings.advanced.pasteMethod.options.none"),
-      },
     ];
 
     if (osType === "windows" || osType === "linux") {

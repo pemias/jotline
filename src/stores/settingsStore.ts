@@ -44,8 +44,6 @@ const settingUpdaters: {
         ? "default"
         : (value as string),
     ),
-  recording_retention_period: (value) =>
-    commands.updateRecordingRetentionPeriod(value as string),
   translate_to_english: (value) =>
     commands.changeTranslateToEnglishSetting(value as boolean),
   selected_language: (value) =>
@@ -65,7 +63,6 @@ const settingUpdaters: {
   auto_submit: (value) => commands.changeAutoSubmitSetting(value as boolean),
   auto_submit_key: (value) =>
     commands.changeAutoSubmitKeySetting(value as string),
-  history_limit: (value) => commands.updateHistoryLimit(value as number),
   post_process_enabled: (value) =>
     commands.changePostProcessEnabledSetting(value as boolean),
   post_process_selected_prompt_id: (value) =>

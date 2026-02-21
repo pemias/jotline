@@ -2,7 +2,6 @@
 use crate::apple_intelligence;
 use crate::audio_feedback::{play_feedback_sound, play_feedback_sound_blocking, SoundType};
 use crate::managers::audio::AudioRecordingManager;
-use crate::managers::history::HistoryManager;
 use crate::managers::transcription::TranscriptionManager;
 use crate::settings::{get_settings, AppSettings, APPLE_INTELLIGENCE_PROVIDER_ID};
 use crate::shortcut;
@@ -388,7 +387,6 @@ impl ShortcutAction for TranscribeAction {
         let ah = app.clone();
         let rm = Arc::clone(&app.state::<Arc<AudioRecordingManager>>());
         let tm = Arc::clone(&app.state::<Arc<TranscriptionManager>>());
-        let hm = Arc::clone(&app.state::<Arc<HistoryManager>>());
 
         change_tray_icon(app, TrayIconState::Transcribing);
         show_transcribing_overlay(app);
@@ -419,7 +417,6 @@ impl ShortcutAction for TranscribeAction {
                 );
 
                 let transcription_time = Instant::now();
-                let samples_clone = samples.clone(); // Clone for history saving
                 match tm.transcribe(samples) {
                     Ok(transcription) => {
                         debug!(
@@ -430,8 +427,6 @@ impl ShortcutAction for TranscribeAction {
                         if !transcription.is_empty() {
                             let settings = get_settings(&ah);
                             let mut final_text = transcription.clone();
-                            let mut post_processed_text: Option<String> = None;
-                            let mut post_process_prompt: Option<String> = None;
 
                             // First, check if Chinese variant conversion is needed
                             if let Some(converted_text) =
@@ -445,46 +440,13 @@ impl ShortcutAction for TranscribeAction {
                             if post_process {
                                 show_processing_overlay(&ah);
                             }
-                            let processed = if post_process {
+                            if let Some(processed_text) = if post_process {
                                 post_process_transcription(&settings, &final_text).await
                             } else {
                                 None
-                            };
-                            if let Some(processed_text) = processed {
-                                post_processed_text = Some(processed_text.clone());
+                            } {
                                 final_text = processed_text;
-
-                                // Get the prompt that was used
-                                if let Some(prompt_id) = &settings.post_process_selected_prompt_id {
-                                    if let Some(prompt) = settings
-                                        .post_process_prompts
-                                        .iter()
-                                        .find(|p| &p.id == prompt_id)
-                                    {
-                                        post_process_prompt = Some(prompt.prompt.clone());
-                                    }
-                                }
-                            } else if final_text != transcription {
-                                // Chinese conversion was applied but no LLM post-processing
-                                post_processed_text = Some(final_text.clone());
                             }
-
-                            // Save to history with post-processed text and prompt
-                            let hm_clone = Arc::clone(&hm);
-                            let transcription_for_history = transcription.clone();
-                            tauri::async_runtime::spawn(async move {
-                                if let Err(e) = hm_clone
-                                    .save_transcription(
-                                        samples_clone,
-                                        transcription_for_history,
-                                        post_processed_text,
-                                        post_process_prompt,
-                                    )
-                                    .await
-                                {
-                                    error!("Failed to save transcription to history: {}", e);
-                                }
-                            });
 
                             // Paste the final text (either processed or original)
                             let ah_clone = ah.clone();

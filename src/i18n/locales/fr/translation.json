@@ -2,7 +2,6 @@
   "tray": {
     "settings": "Paramètres...",
     "checkUpdates": "Rechercher des mises à jour...",
-    "copyLastTranscript": "Copier la dernière transcription",
     "unloadModel": "Décharger le modèle",
     "quit": "Quitter",
     "cancel": "Annuler"
@@ -12,7 +11,6 @@
     "models": "Modèles",
     "advanced": "Avancé",
     "postProcessing": "Post-traitement",
-    "history": "Historique",
     "debug": "Débogage",
     "about": "À propos"
   },
@@ -225,7 +223,6 @@
         "app": "Application",
         "output": "Sortie",
         "transcription": "Transcription",
-        "history": "Historique",
         "experimental": "Expérimental"
       },
       "experimentalToggle": {
@@ -380,17 +377,6 @@
         "createFirst": "Cliquez sur 'Créer un nouveau prompt' ci-dessus pour créer votre premier prompt de post-traitement."
       }
     },
-    "history": {
-      "title": "Historique",
-      "openFolder": "Ouvrir le dossier des enregistrements",
-      "loading": "Chargement de l'historique...",
-      "empty": "Pas encore de transcriptions. Commencez à enregistrer pour créer votre historique !",
-      "copyToClipboard": "Copier la transcription dans le presse-papiers",
-      "save": "Enregistrer la transcription",
-      "unsave": "Retirer des favoris",
-      "delete": "Supprimer l'entrée",
-      "deleteError": "Échec de la suppression de l'entrée. Veuillez réessayer."
-    },
     "debug": {
       "title": "Débogage",
       "logDirectory": {
@@ -412,21 +398,6 @@
       "wordCorrectionThreshold": {
         "title": "Seuil de correction des mots",
         "description": "Sensibilité pour les corrections de mots personnalisés"
-      },
-      "historyLimit": {
-        "title": "Limite d'historique",
-        "description": "Nombre maximum d'entrées d'historique à conserver",
-        "entries": "entrées"
-      },
-      "recordingRetention": {
-        "title": "Suppression automatique des enregistrements",
-        "description": "Supprimer automatiquement les anciens enregistrements pour économiser de l'espace",
-        "never": "Jamais",
-        "preserveLimit": "Conserver les {{count}} plus récents",
-        "days3": "Après 3 jours",
-        "weeks2": "Après 2 semaines",
-        "months3": "Après 3 mois",
-        "placeholder": "Sélectionner la période de conservation..."
       },
       "alwaysOnMicrophone": {
         "label": "Microphone toujours actif",

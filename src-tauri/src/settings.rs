@@ -132,7 +132,6 @@ pub enum ModelUnloadTimeout {
 pub enum PasteMethod {
     CtrlV,
     Direct,
-    None,
     ShiftInsert,
     CtrlShiftV,
     ExternalScript,
@@ -153,16 +152,6 @@ pub enum AutoSubmitKey {
     Enter,
     CtrlEnter,
     CmdEnter,
-}
-
-#[derive(Serialize, Deserialize, Debug, Clone, Copy, PartialEq, Eq, Type)]
-#[serde(rename_all = "snake_case")]
-pub enum RecordingRetentionPeriod {
-    Never,
-    PreserveLimit,
-    Days3,
-    Weeks2,
-    Months3,
 }
 
 #[derive(Serialize, Deserialize, Debug, Clone, Copy, PartialEq, Eq, Type)]
@@ -301,10 +290,6 @@ pub struct AppSettings {
     pub model_unload_timeout: ModelUnloadTimeout,
     #[serde(default = "default_word_correction_threshold")]
     pub word_correction_threshold: f64,
-    #[serde(default = "default_history_limit")]
-    pub history_limit: usize,
-    #[serde(default = "default_recording_retention_period")]
-    pub recording_retention_period: RecordingRetentionPeriod,
     #[serde(default)]
     pub paste_method: PasteMethod,
     #[serde(default)]
@@ -399,14 +384,6 @@ fn default_paste_delay_ms() -> u64 {
 
 fn default_auto_submit() -> bool {
     false
-}
-
-fn default_history_limit() -> usize {
-    5
-}
-
-fn default_recording_retention_period() -> RecordingRetentionPeriod {
-    RecordingRetentionPeriod::PreserveLimit
 }
 
 fn default_audio_feedback_volume() -> f32 {
@@ -686,8 +663,6 @@ pub fn get_default_settings() -> AppSettings {
         custom_words: Vec::new(),
         model_unload_timeout: ModelUnloadTimeout::Never,
         word_correction_threshold: default_word_correction_threshold(),
-        history_limit: default_history_limit(),
-        recording_retention_period: default_recording_retention_period(),
         paste_method: PasteMethod::default(),
         clipboard_handling: ClipboardHandling::default(),
         auto_submit: default_auto_submit(),
@@ -831,16 +806,6 @@ pub fn get_stored_binding(app: &AppHandle, id: &str) -> ShortcutBinding {
     let binding = bindings.get(id).unwrap().clone();
 
     binding
-}
-
-pub fn get_history_limit(app: &AppHandle) -> usize {
-    let settings = get_settings(app);
-    settings.history_limit
-}
-
-pub fn get_recording_retention_period(app: &AppHandle) -> RecordingRetentionPeriod {
-    let settings = get_settings(app);
-    settings.recording_retention_period
 }
 
 #[cfg(test)]

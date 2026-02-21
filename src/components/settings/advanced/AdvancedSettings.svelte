@@ -14,8 +14,6 @@
   import AutoSubmit from "../AutoSubmit.svelte";
   import PostProcessingToggle from "../PostProcessingToggle.svelte";
   import AppendTrailingSpace from "../AppendTrailingSpace.svelte";
-  import HistoryLimit from "../HistoryLimit.svelte";
-  import RecordingRetentionPeriodSelector from "../RecordingRetentionPeriod.svelte";
   import ExperimentalToggle from "../ExperimentalToggle.svelte";
   import KeyboardImplementationSelector from "../debug/KeyboardImplementationSelector.svelte";
 
@@ -42,11 +40,6 @@
   <SettingsGroup title={$t("settings.advanced.groups.transcription")}>
     <CustomWords descriptionMode="tooltip" grouped={true} />
     <AppendTrailingSpace descriptionMode="tooltip" grouped={true} />
-  </SettingsGroup>
-
-  <SettingsGroup title={$t("settings.advanced.groups.history")}>
-    <HistoryLimit descriptionMode="tooltip" grouped={true} />
-    <RecordingRetentionPeriodSelector descriptionMode="tooltip" grouped={true} />
   </SettingsGroup>
 
   {#if experimentalEnabled}

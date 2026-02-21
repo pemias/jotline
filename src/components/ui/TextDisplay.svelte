@@ -64,7 +64,7 @@
       <button
         onclick={handleCopy}
         class="flex items-center justify-center px-2 py-1 w-12 min-h-8 text-xs font-semibold bg-mid-gray/10 hover:bg-mid-gray/20 border border-mid-gray/80 hover:border-mid-gray rounded-md transition-all duration-150 flex-shrink-0 cursor-pointer"
-        title={$t("settings.history.copyToClipboard")}
+        title={$t("common.copy")}
       >
         {#if showCopied}
           <div class="flex items-center space-x-1">

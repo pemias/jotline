@@ -1,5 +1,4 @@
 pub mod audio;
-pub mod history;
 pub mod model;
 #[cfg(feature = "transcription")]
 pub mod transcription;
