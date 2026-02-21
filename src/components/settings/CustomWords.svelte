@@ -1,5 +1,6 @@
 <script lang="ts">
   import { t } from "@/i18n";
+  import { toast } from "svelte-sonner";
   import { settings, updateSetting, isUpdatingKey } from "@/stores/settingsStore";
   import Input from "../ui/Input.svelte";
   import Button from "../ui/Button.svelte";
@@ -20,9 +21,14 @@
     if (
       sanitizedWord &&
       !sanitizedWord.includes(" ") &&
-      sanitizedWord.length <= 50 &&
-      !customWords.includes(sanitizedWord)
+      sanitizedWord.length <= 50
     ) {
+      if (customWords.includes(sanitizedWord)) {
+        toast.error(
+          $t("settings.advanced.customWords.duplicate", { word: sanitizedWord }),
+        );
+        return;
+      }
       updateSetting("custom_words", [...customWords, sanitizedWord]);
       newWord = "";
     }
