@@ -1,0 +1,510 @@
+{"id":"en-dentist","lang":"English","locale":"en","transcript":"I need to remember to call the dentist tomorrow morning and reschedule my appointment because I have a conflict with the team meeting"}
+{"id":"en-grocery","lang":"English","locale":"en","transcript":"The grocery store on Fifth Avenue has really good sourdough bread and I should pick some up on my way home tonight"}
+{"id":"en-school-play","lang":"English","locale":"en","transcript":"My daughter's school play is next Thursday at seven and I need to make sure I leave work early enough to get good seats"}
+{"id":"en-app-idea","lang":"English","locale":"en","transcript":"Just had a great idea for the app we should add dark mode support and also fix that bug where the notification sound plays twice"}
+{"id":"en-plants-vet","lang":"English","locale":"en","transcript":"Remind me to water the plants and take the dog to the vet on Saturday morning"}
+{"id":"zh-bank-card","lang":"Chinese","locale":"zh","transcript":"明天下午三点要去银行办理新的信用卡申请手续"}
+{"id":"zh-weekend-kids","lang":"Chinese","locale":"zh","transcript":"周末带孩子去公园玩顺便买点水果回来"}
+{"id":"zh-jianli-update","lang":"Chinese","locale":"zh","transcript":"下周一之前要把简历更新好发给猎头李姐"}
+{"id":"zh-kongtiao-repair","lang":"Chinese","locale":"zh","transcript":"家里空调又不制冷了得找人来修一下趁还没到最热的时候"}
+{"id":"zh-huiyi-ppt","lang":"Chinese","locale":"zh","transcript":"后天下午的项目汇报会要准备PPT记得把上个月的数据整理进去"}
+{"id":"zh-Hans-kuaidi","lang":"Chinese (Simplified)","locale":"zh-Hans","transcript":"快递到了放在菜鸟驿站了下班后过去取一下"}
+{"id":"zh-Hans-tiyujian","lang":"Chinese (Simplified)","locale":"zh-Hans","transcript":"下个月初公司安排体检要提前在网上预约时间段"}
+{"id":"zh-Hans-zufang","lang":"Chinese (Simplified)","locale":"zh-Hans","transcript":"房租月底到期了要跟房东商量续租的事顺便问一下能不能便宜点"}
+{"id":"zh-Hans-jieri-liwu","lang":"Chinese (Simplified)","locale":"zh-Hans","transcript":"中秋节快到了给爸妈买点月饼再挑一盒茶叶寄回老家"}
+{"id":"zh-Hans-chezi-baoyang","lang":"Chinese (Simplified)","locale":"zh-Hans","transcript":"车子该保养了上次换机油是三个月前了周六约个时间去4S店"}
+{"id":"zh-Hant-yiyuan-guahao","lang":"Chinese (Traditional)","locale":"zh-Hant","transcript":"禮拜三要去醫院掛號看牙齒記得帶健保卡"}
+{"id":"zh-Hant-maicai","lang":"Chinese (Traditional)","locale":"zh-Hant","transcript":"今天晚上要煮火鍋得先去市場買些高麗菜跟豆腐"}
+{"id":"zh-Hant-jiazhuang","lang":"Chinese (Traditional)","locale":"zh-Hant","transcript":"新房子下週交屋要找設計師討論裝潢的風格跟預算"}
+{"id":"zh-Hant-qinzi-lvxing","lang":"Chinese (Traditional)","locale":"zh-Hant","transcript":"暑假想帶小朋友去花蓮玩三天兩夜要提早訂民宿"}
+{"id":"zh-Hant-dianshi-huai","lang":"Chinese (Traditional)","locale":"zh-Hant","transcript":"客廳的電視壞了畫面一直閃要打電話問維修中心能不能這週來修"}
+{"id":"de-waesche-kuehlschrank","lang":"German","locale":"de","transcript":"Ich muss morgen unbedingt die Wäsche waschen und den Kühlschrank aufräumen bevor die Gäste kommen"}
+{"id":"de-arzttermin","lang":"German","locale":"de","transcript":"Am Donnerstag um zehn habe ich einen Arzttermin den darf ich auf keinen Fall vergessen"}
+{"id":"de-elternabend","lang":"German","locale":"de","transcript":"Nächste Woche Mittwoch ist Elternabend in der Schule und ich muss noch mit Lisa darüber reden wer hingeht"}
+{"id":"de-fahrrad-reparatur","lang":"German","locale":"de","transcript":"Das Fahrrad hat einen platten Reifen ich sollte es am Wochenende in die Werkstatt bringen"}
+{"id":"de-geburtstagsfeier","lang":"German","locale":"de","transcript":"Für Mamas Geburtstagsfeier am Samstag muss ich noch einen Kuchen bestellen und die Nachbarn einladen"}
+{"id":"es-leche-pan","lang":"Spanish","locale":"es","transcript":"Tengo que acordarme de comprar leche y pan cuando vuelva del trabajo esta tarde"}
+{"id":"es-profesor-reunion","lang":"Spanish","locale":"es","transcript":"La reunión con el profesor de mi hijo es el martes a las cuatro y necesito salir antes del trabajo"}
+{"id":"es-coche-taller","lang":"Spanish","locale":"es","transcript":"El coche hace un ruido raro al frenar tengo que llevarlo al taller antes de que sea algo grave"}
+{"id":"es-cumple-sobrino","lang":"Spanish","locale":"es","transcript":"El cumpleaños de mi sobrino es este domingo y todavía no le he comprado el regalo"}
+{"id":"es-dentista-limpieza","lang":"Spanish","locale":"es","transcript":"Tengo que pedir cita en el dentista para una limpieza que ya llevo más de un año sin ir"}
+{"id":"ru-posylka-pochta","lang":"Russian","locale":"ru","transcript":"Нужно не забыть забрать посылку с почты до пятницы иначе её отправят обратно"}
+{"id":"ru-remont-kran","lang":"Russian","locale":"ru","transcript":"На кухне опять подтекает кран надо вызвать сантехника на этой неделе"}
+{"id":"ru-roditelskoe-sobranie","lang":"Russian","locale":"ru","transcript":"В четверг вечером родительское собрание в школе у Димы нужно не забыть отпроситься с работы пораньше"}
+{"id":"ru-prodlenie-prava","lang":"Russian","locale":"ru","transcript":"Через месяц заканчивается срок действия водительских прав надо записаться на замену в МФЦ"}
+{"id":"ru-podarok-zhene","lang":"Russian","locale":"ru","transcript":"Скоро годовщина свадьбы надо придумать подарок жене и забронировать столик в ресторане"}
+{"id":"ko-hospital-time","lang":"Korean","locale":"ko","transcript":"다음 주 화요일에 병원 예약이 있는데 시간을 확인해야 해"}
+{"id":"ko-grocery-evening","lang":"Korean","locale":"ko","transcript":"오늘 저녁에 장을 봐야 하는데 김치 재료랑 라면을 사와야 해"}
+{"id":"ko-chaek-banhab","lang":"Korean","locale":"ko","transcript":"도서관에서 빌린 책 반납일이 이번 주 금요일까지인데 깜빡할 뻔했다"}
+{"id":"ko-isa-junbi","lang":"Korean","locale":"ko","transcript":"다음 달에 이사하는데 포장이사 업체 견적을 두세 군데 받아봐야겠다"}
+{"id":"ko-bumo-seonmul","lang":"Korean","locale":"ko","transcript":"어버이날에 부모님 선물로 안마기를 사드릴까 아니면 같이 외식을 할까 고민이다"}
+{"id":"fr-cadeau-marie","lang":"French","locale":"fr","transcript":"Il faut que je pense à acheter un cadeau pour l'anniversaire de Marie samedi prochain"}
+{"id":"fr-plombier-fuite","lang":"French","locale":"fr","transcript":"Le plombier vient demain matin entre neuf et onze heures pour réparer la fuite dans la salle de bain"}
+{"id":"fr-reunion-parents","lang":"French","locale":"fr","transcript":"La réunion de parents d'élèves est jeudi soir à dix-huit heures il faut que je prévienne mon chef pour partir plus tôt"}
+{"id":"fr-voiture-controle","lang":"French","locale":"fr","transcript":"Le contrôle technique de la voiture expire la semaine prochaine faut que je prenne rendez-vous au garage"}
+{"id":"fr-courses-diner","lang":"French","locale":"fr","transcript":"Ce soir on reçoit des amis à dîner je dois passer au marché acheter du poisson et des légumes frais"}
+{"id":"ja-haha-purezento","lang":"Japanese","locale":"ja","transcript":"来週の金曜日に母の誕生日があるからプレゼントを買いに行かないと"}
+{"id":"ja-gyunyu-kigen","lang":"Japanese","locale":"ja","transcript":"冷蔵庫にあった牛乳がもう期限切れだから帰りにスーパーで買ってこないと"}
+{"id":"ja-shaken-yoyaku","lang":"Japanese","locale":"ja","transcript":"車検が来月切れるからディーラーに予約の電話しなきゃ早めにやらないと混むし"}
+{"id":"ja-nikkei-kaigi","lang":"Japanese","locale":"ja","transcript":"水曜の午後に日経のクライアントとオンライン会議があるから資料を今日中に仕上げないと"}
+{"id":"ja-hikoshi-nimotsu","lang":"Japanese","locale":"ja","transcript":"引っ越しの荷物まだ段ボール三箱開けてないから週末にちゃんと片付けよう"}
+{"id":"pt-encanador-torneira","lang":"Portuguese","locale":"pt","transcript":"Preciso ligar para o encanador porque a torneira da cozinha está vazando há dois dias"}
+{"id":"pt-reuniao-cliente","lang":"Portuguese","locale":"pt","transcript":"Tenho reunião com o cliente às três da tarde e ainda preciso preparar a apresentação"}
+{"id":"pt-mercado-feira","lang":"Portuguese","locale":"pt","transcript":"Passando aqui pra lembrar de ir na feira sábado de manhã comprar frutas e verduras pro almoço de domingo"}
+{"id":"pt-dentista-canal","lang":"Portuguese","locale":"pt","transcript":"Preciso remarcar a consulta do dentista porque o tratamento de canal ficou pra semana que vem"}
+{"id":"pt-pneu-carro","lang":"Portuguese","locale":"pt","transcript":"O pneu dianteiro do carro tá careca já tem que trocar antes de viajar na sexta"}
+{"id":"tr-ekmek-firin","lang":"Turkish","locale":"tr","transcript":"Yarın sabah erkenden kalkıp kahvaltı için taze ekmek almam lazım fırın yedide açılıyor"}
+{"id":"tr-toplanti-rapor","lang":"Turkish","locale":"tr","transcript":"Pazartesi günü müdürle toplantı var ona kadar raporu bitirmem gerekiyor"}
+{"id":"tr-fatura-internet","lang":"Turkish","locale":"tr","transcript":"İnternet faturası bu ay çok yüksek gelmiş operatörü arayıp sormam lazım"}
+{"id":"tr-eczane-ilac","lang":"Turkish","locale":"tr","transcript":"Anneme eczaneden tansiyon ilacı almayı unutmayayım reçete çantamda"}
+{"id":"tr-tamirci-araba","lang":"Turkish","locale":"tr","transcript":"Arabanın yağını değiştirmem lazım en geç cuma günü tamirciye bırakacağım"}
+{"id":"pl-paczki-poczta","lang":"Polish","locale":"pl","transcript":"Muszę pamiętać żeby odebrać paczki z poczty przed piątkiem bo je odeślą"}
+{"id":"pl-dentysta-wizyta","lang":"Polish","locale":"pl","transcript":"Trzeba zadzwonić do dentysty i przełożyć wizytę bo w czwartek mam spotkanie w pracy"}
+{"id":"pl-zakupy-obiad","lang":"Polish","locale":"pl","transcript":"W drodze do domu muszę wstąpić do sklepu po ziemniaki i kurczaka na niedzielny obiad"}
+{"id":"pl-rachunki-gaz","lang":"Polish","locale":"pl","transcript":"Przypomnienie żeby opłacić rachunek za gaz bo termin mija w przyszły wtorek"}
+{"id":"pl-rower-naprawa","lang":"Polish","locale":"pl","transcript":"Rower ma przebitą dętkę muszę go zanieść do serwisu zanim zacznie się sezon"}
+{"id":"ca-metge-dema","lang":"Catalan","locale":"ca","transcript":"Demà al matí tinc visita amb el metge de capçalera a les deu i no puc arribar tard"}
+{"id":"ca-compra-mercat","lang":"Catalan","locale":"ca","transcript":"Haig d'anar al mercat a comprar peix fresc i verdures per al sopar de dissabte"}
+{"id":"ca-reunio-feina","lang":"Catalan","locale":"ca","transcript":"Recordar que dilluns tinc reunió amb el cap de projectes per revisar el pressupost"}
+{"id":"ca-lampista-dutxa","lang":"Catalan","locale":"ca","transcript":"Cal trucar al lampista perquè la dutxa del bany perd aigua des de la setmana passada"}
+{"id":"ca-cotxe-itv","lang":"Catalan","locale":"ca","transcript":"El cotxe ha de passar la ITV abans de finals de mes i encara no he demanat hora"}
+{"id":"nl-tandarts-boodschappen","lang":"Dutch","locale":"nl","transcript":"Morgen moet ik naar de tandarts voor mijn halfjaarlijkse controle en daarna boodschappen doen"}
+{"id":"nl-vergadering-presentatie","lang":"Dutch","locale":"nl","transcript":"Maandag heb ik een vergadering met het hele team en ik moet de presentatie nog afmaken"}
+{"id":"nl-stomerij-pak","lang":"Dutch","locale":"nl","transcript":"Niet vergeten mijn pak op te halen bij de stomerij voor het feest van zaterdag"}
+{"id":"nl-loodgieter-lekkage","lang":"Dutch","locale":"nl","transcript":"De kraan in de badkamer lekt al een week dus ik moet de loodgieter bellen"}
+{"id":"nl-banden-garage","lang":"Dutch","locale":"nl","transcript":"Volgende week winterbanden laten monteren bij de garage want het gaat vriezen"}
+{"id":"ar-fatura-kahraba","lang":"Arabic","locale":"ar","transcript":"لازم أتذكر أدفع فاتورة الكهرباء قبل نهاية الشهر"}
+{"id":"ar-ijtimaa-mudeer","lang":"Arabic","locale":"ar","transcript":"عندي اجتماع مع المدير يوم الأحد الساعة عشرة الصبح لازم أجهز التقرير"}
+{"id":"ar-souq-khudar","lang":"Arabic","locale":"ar","transcript":"لازم أروح السوق أشتري خضار وفواكه قبل ما يقفل بكرة الجمعة"}
+{"id":"ar-tabib-asnan","lang":"Arabic","locale":"ar","transcript":"عندي موعد عند طبيب الأسنان يوم الثلاثاء ولازم أأكد الموعد بكرة"}
+{"id":"ar-sayyara-zeyt","lang":"Arabic","locale":"ar","transcript":"السيارة محتاجة تغيير زيت المكينة لازم أوديها الورشة هالأسبوع"}
+{"id":"sv-tandlakartiden","lang":"Swedish","locale":"sv","transcript":"Jag måste komma ihåg att boka om tandläkartiden eftersom jag har ett möte på jobbet den dagen"}
+{"id":"sv-mataffar-middag","lang":"Swedish","locale":"sv","transcript":"Ska handla på vägen hem behöver köpa lax och potatis till middagen ikväll"}
+{"id":"sv-rormokar-kran","lang":"Swedish","locale":"sv","transcript":"Kranen i köket droppar konstant måste ringa rörmokaren och boka en tid"}
+{"id":"sv-bilverkstad-service","lang":"Swedish","locale":"sv","transcript":"Bilen behöver service innan semestern jag borde boka tid på verkstaden snart"}
+{"id":"sv-mote-rapport","lang":"Swedish","locale":"sv","transcript":"På måndag ska jag presentera kvartalsrapporten för ledningsgruppen och den är inte klar ännu"}
+{"id":"it-idraulico-rubinetto","lang":"Italian","locale":"it","transcript":"Devo chiamare l'idraulico perché il rubinetto della cucina perde acqua da tre giorni"}
+{"id":"it-riunione-progetto","lang":"Italian","locale":"it","transcript":"Lunedì ho la riunione col capo progetto alle dieci e devo ancora finire la relazione"}
+{"id":"it-spesa-mercato","lang":"Italian","locale":"it","transcript":"Devo passare al mercato a comprare la mozzarella e i pomodori per la cena di stasera"}
+{"id":"it-meccanico-freni","lang":"Italian","locale":"it","transcript":"La macchina fa un rumore strano quando freno devo portarla dal meccanico questa settimana"}
+{"id":"it-bolletta-gas","lang":"Italian","locale":"it","transcript":"Mi sono dimenticato di pagare la bolletta del gas scade dopodomani devo farlo subito"}
+{"id":"id-belanja-sayur","lang":"Indonesian","locale":"id","transcript":"Besok pagi harus ke pasar beli sayur dan ayam buat masak makan siang keluarga"}
+{"id":"id-rapat-kantor","lang":"Indonesian","locale":"id","transcript":"Hari Senin ada rapat sama bos soal proyek baru harus siapin presentasinya dulu"}
+{"id":"id-servis-motor","lang":"Indonesian","locale":"id","transcript":"Motor udah lama nggak diservis harus bawa ke bengkel sebelum akhir minggu ini"}
+{"id":"id-bayar-listrik","lang":"Indonesian","locale":"id","transcript":"Jangan lupa bayar tagihan listrik bulan ini soalnya kemarin hampir telat"}
+{"id":"id-dokter-gigi","lang":"Indonesian","locale":"id","transcript":"Harus bikin janji ke dokter gigi buat cabut gigi bungsu minggu depan"}
+{"id":"hi-bazar-sabzi","lang":"Hindi","locale":"hi","transcript":"कल सुबह जल्दी उठकर बाजार जाना है सब्जियां खरीदने के लिए"}
+{"id":"hi-meeting-boss","lang":"Hindi","locale":"hi","transcript":"सोमवार को बॉस के साथ मीटिंग है प्रेजेंटेशन अभी तक तैयार नहीं की"}
+{"id":"hi-bijli-bill","lang":"Hindi","locale":"hi","transcript":"बिजली का बिल भरना है महीने की आखिरी तारीख से पहले वरना लेट फीस लगेगी"}
+{"id":"hi-doctor-dawai","lang":"Hindi","locale":"hi","transcript":"मम्मी की दवाई खत्म हो रही है कल मेडिकल से लेकर आना है"}
+{"id":"hi-gaadi-service","lang":"Hindi","locale":"hi","transcript":"गाड़ी की सर्विस कराना है बहुत दिन हो गए मैकेनिक को फोन करना है"}
+{"id":"fi-hammaslaakari","lang":"Finnish","locale":"fi","transcript":"Pitäis varata aika hammaslääkäriin ensi viikolle, se oikeanpuoleinen takahammas on taas kipee"}
+{"id":"fi-kauppalista","lang":"Finnish","locale":"fi","transcript":"Muista ostaa kaupasta maitoa, leipää ja sitä uutta kahvimerkkiä mitä Sanna suositteli"}
+{"id":"fi-autonhuolto","lang":"Finnish","locale":"fi","transcript":"Auto pitää viedä katsastukseen ennen maaliskuun loppua ja samalla vois vaihdattaa jarrupalat"}
+{"id":"fi-projekti-deadline","lang":"Finnish","locale":"fi","transcript":"Asiakasprojektin deadline on perjantaina ja mun pitää vielä viimeistellä se raportti ja lähettää se Markulle"}
+{"id":"fi-kesaloma","lang":"Finnish","locale":"fi","transcript":"Pitäis alkaa kattoo kesäloman mökkivuokrauksia Savonlinnasta, viime vuonna kaikki meni niin nopeesti"}
+{"id":"vi-sua-xe-may","lang":"Vietnamese","locale":"vi","transcript":"Cuối tuần này phải đi sửa xe máy vì phanh trước đã bị mòn rồi"}
+{"id":"vi-hop-phu-huynh","lang":"Vietnamese","locale":"vi","transcript":"Thứ sáu tuần này có họp phụ huynh ở trường con Minh lúc bốn giờ chiều, nhớ xin nghỉ sớm"}
+{"id":"vi-mua-qua-sinh-nhat","lang":"Vietnamese","locale":"vi","transcript":"Sinh nhật bé Na là chủ nhật tuần sau, phải ra tiệm mua bánh kem và mấy cái bóng bay trang trí"}
+{"id":"vi-kham-rang","lang":"Vietnamese","locale":"vi","transcript":"Đặt lịch khám răng cho mẹ ở nha khoa Hoàn Mỹ vì mẹ kêu đau răng mấy hôm nay rồi"}
+{"id":"vi-don-nha","lang":"Vietnamese","locale":"vi","transcript":"Cuối tuần dọn dẹp nhà kho phía sau đi vì chất đồ nhiều quá rồi, bán bớt mấy cái ghế cũ luôn"}
+{"id":"he-matana-ima","lang":"Hebrew","locale":"he","transcript":"צריך לזכור לקנות מתנה ליום ההולדת של אמא בשבוע הבא"}
+{"id":"he-tור-rופא","lang":"Hebrew","locale":"he","transcript":"לקבוע תור לרופא עיניים כי המשקפיים כבר לא מתאימים לי ואני מקבל כאבי ראש"}
+{"id":"he-kniya-super","lang":"Hebrew","locale":"he","transcript":"לעבור בסופר בדרך הביתה לקנות חלב ביצים ולחם ואת הגבינה הצהובה שנגמרה"}
+{"id":"he-tיkun-mezagan","lang":"Hebrew","locale":"he","transcript":"להזמין טכנאי למזגן בסלון כי הוא מטפטף ולא מקרר כמו שצריך כבר שבוע"}
+{"id":"he-heshbon-arnona","lang":"Hebrew","locale":"he","transcript":"לא לשכוח לשלם את חשבון הארנונה עד סוף החודש אחרת יהיה קנס"}
+{"id":"uk-likar-zapys","lang":"Ukrainian","locale":"uk","transcript":"Треба записатись до лікаря на наступний тиждень бо вже місяць болить спина і не проходить"}
+{"id":"uk-remont-kran","lang":"Ukrainian","locale":"uk","transcript":"Викликати сантехніка бо кран на кухні тече вже третій день і рахунок за воду буде шалений"}
+{"id":"uk-podarunok-druzhyna","lang":"Ukrainian","locale":"uk","transcript":"Придумати подарунок дружині на річницю в суботу, може замовити той браслет що їй сподобався"}
+{"id":"uk-batky-vizyt","lang":"Ukrainian","locale":"uk","transcript":"Батьки приїжджають у п'ятницю ввечері, треба прибрати квартиру і купити продукти на вечерю"}
+{"id":"uk-robota-zvit","lang":"Ukrainian","locale":"uk","transcript":"Дедлайн по квартальному звіту в середу, ще треба зібрати дані від відділу продажів"}
+{"id":"el-rantevou-giatros","lang":"Greek","locale":"el","transcript":"Πρέπει να κλείσω ραντεβού στον δερματολόγο γιατί αυτό το σπυράκι στο χέρι δεν φεύγει εδώ και μήνα"}
+{"id":"el-psonia-souper","lang":"Greek","locale":"el","transcript":"Να περάσω από σούπερ μάρκετ για γάλα αυγά ψωμί και να πάρω κιμά για τα γεμιστά το Σάββατο"}
+{"id":"el-plystיrio-service","lang":"Greek","locale":"el","transcript":"Το πλυντήριο κάνει θόρυβο στο στύψιμο, πρέπει να καλέσω τεχνικό πριν χαλάσει τελείως"}
+{"id":"el-diakopes-kalokairi","lang":"Greek","locale":"el","transcript":"Να κοιτάξω εισιτήρια για Κρήτη τον Αύγουστο γιατί φέτος θέλουμε να πάμε δύο εβδομάδες"}
+{"id":"el-frontistirio-paidי","lang":"Greek","locale":"el","transcript":"Η Μαρία πρέπει να ξεκινήσει φροντιστήριο αγγλικών από Σεπτέμβρη, να ρωτήσω τη Δήμητρα ποιο πηγαίνει ο γιος της"}
+{"id":"ms-servis-kereta","lang":"Malay","locale":"ms","transcript":"Kena hantar kereta pergi servis minggu depan sebab bunyi pelik bila belok ke kiri"}
+{"id":"ms-bayar-bil-elektrik","lang":"Malay","locale":"ms","transcript":"Jangan lupa bayar bil elektrik sebelum hujung bulan ni, bulan lepas hampir kena denda"}
+{"id":"ms-beli-hadiah-anak","lang":"Malay","locale":"ms","transcript":"Nak cari hadiah birthday Aisyah hari Sabtu ni, dia nak set lukisan watercolour tu"}
+{"id":"ms-temujanji-doktor","lang":"Malay","locale":"ms","transcript":"Appointment doktor gigi hari Rabu pukul tiga petang, kena ambil cuti setengah hari"}
+{"id":"ms-baiki-pagar","lang":"Malay","locale":"ms","transcript":"Pagar belakang rumah dah condong teruk lepas ribut hari tu, kena panggil tukang betulkan"}
+{"id":"cs-zubar-objednat","lang":"Czech","locale":"cs","transcript":"Musím se objednat k zubaři protože ta plomba vzadu napravo se mi asi vypadla a bolí to"}
+{"id":"cs-nakup-vikend","lang":"Czech","locale":"cs","transcript":"V sobotu zajít do Kauflandu koupit maso na grilování a nezapomenout na uhlí a tu marinadu"}
+{"id":"cs-oprava-myckа","lang":"Czech","locale":"cs","transcript":"Myčka zase neteče pořádně, zavolat toho technika co tu byl minule a má dobré recenze"}
+{"id":"cs-narozeniny-tata","lang":"Czech","locale":"cs","transcript":"Táta má příští středu narozeniny, domluvit se se ségrou na společném dárku, třeba ta vrtačka co chtěl"}
+{"id":"cs-projekt-prezentace","lang":"Czech","locale":"cs","transcript":"Do pátku připravit prezentaci pro klienta, ještě chybí grafy z posledního kvartálu a shrnutí výsledků"}
+{"id":"ro-programare-doctor","lang":"Romanian","locale":"ro","transcript":"Trebuie să îmi fac programare la doctor pentru analizele de sânge că nu am mai fost de un an"}
+{"id":"ro-cumparat-cadou","lang":"Romanian","locale":"ro","transcript":"Ziua Mariei e sâmbătă și trebuie să cumpăr un cadou, poate setul ăla de cărți pe care l-a vrut"}
+{"id":"ro-reparat-chiuveta","lang":"Romanian","locale":"ro","transcript":"Chiuveta din baie curge la îmbinare, trebuie sunat la instalator că eu nu mă pricep la treaba asta"}
+{"id":"ro-plata-intretinere","lang":"Romanian","locale":"ro","transcript":"Să nu uit să plătesc întreținerea până pe douăzeci și cinci că luna trecută am uitat și a fost penalizare"}
+{"id":"ro-vacanta-vara","lang":"Romanian","locale":"ro","transcript":"Să caut bilete de avion spre Grecia pentru iulie, dacă le luăm acum sigur prindem preț mai bun"}
+{"id":"da-tandlaege-tid","lang":"Danish","locale":"da","transcript":"Skal huske at bestille tid hos tandlægen for det gør ondt i den bagerste kindtand når jeg spiser"}
+{"id":"da-indkob-aftensmad","lang":"Danish","locale":"da","transcript":"Skal forbi Netto på vej hjem og købe hakket oksekød og pasta til aftensmad og mælk er også slut"}
+{"id":"da-vaerksted-cykel","lang":"Danish","locale":"da","transcript":"Cyklen har fået en flad bagdæk igen, skal have den ned til cykelsmeden i morgen tidlig"}
+{"id":"da-fodselsdag-mor","lang":"Danish","locale":"da","transcript":"Mors fødselsdag er på søndag og vi skal nå at købe blomster og bestille en lagkage fra bageriet"}
+{"id":"da-sommerhus-booking","lang":"Danish","locale":"da","transcript":"Vi skal booke sommerhus i Blåvand til juli inden det hele bliver udlejet, tjek priser i aften"}
+{"id":"hu-fogorvos-idopont","lang":"Hungarian","locale":"hu","transcript":"Foglalnom kell időpontot a fogorvoshoz mert az a jobb oldali fog megint érzékeny hidegre"}
+{"id":"hu-bevasarlas-hוtvege","lang":"Hungarian","locale":"hu","transcript":"Hétvégén be kell menni a Teszkóba húst venni a vasárnapi sütéshez meg kell még liszt és tojás is"}
+{"id":"hu-szerelo-csap","lang":"Hungarian","locale":"hu","transcript":"A fürdőszobai csap csöpög éjszaka is hallatszik, hívni kell egy vízszerelőt amilyen hamar lehet"}
+{"id":"hu-szulinap-ajandek","lang":"Hungarian","locale":"hu","transcript":"Andinak jövő szombaton van a szülinapja, meg kéne venni azt a könyvet amit a múltkor mutatott"}
+{"id":"hu-munka-prezentacio","lang":"Hungarian","locale":"hu","transcript":"Péntekre el kell készíteni a negyedéves prezentációt, még hiányoznak az értékesítési adatok Bélától"}
+{"id":"ta-maligai-kadai","lang":"Tamil","locale":"ta","transcript":"மாலையில மளிகைக்கடைக்குப் போய் அரிசியும் பருப்பும் வாங்கணும் வீட்ல தீர்ந்துடுச்சு"}
+{"id":"ta-pallu-doctor","lang":"Tamil","locale":"ta","transcript":"அடுத்த வாரம் பல் டாக்டர்கிட்ட அப்பாயிண்ட்மென்ட் போடணும் ரொம்ப நாளா வலிக்குது"}
+{"id":"ta-velai-meeting","lang":"Tamil","locale":"ta","transcript":"நாளைக்கு காலையில பத்து மணிக்கு கிளையண்ட் மீட்டிங் இருக்கு ப்ரெசன்டேஷன் ரெடி பண்ணணும்"}
+{"id":"ta-veedu-paint","lang":"Tamil","locale":"ta","transcript":"ஹாலுக்கு பெயிண்ட் அடிக்கணும் கலர் செலக்ட் பண்றதுக்கு ஏசியன் பெயிண்ட்ஸ் கடைக்குப் போகணும்"}
+{"id":"ta-amma-marundhu","lang":"Tamil","locale":"ta","transcript":"அம்மாவுக்கு மாத்திரை வாங்கிக் கொடுக்கணும் பிரஷர் மாத்திரை தீர்ந்துடுச்சாம்"}
+{"id":"no-tannlege","lang":"Norwegian","locale":"no","transcript":"Må huske å ringe tannlegen i morgen for å bestille time har ikke vært der på over et år"}
+{"id":"no-handletur","lang":"Norwegian","locale":"no","transcript":"Må innom butikken etter jobb og kjøpe melk brød og ost til helga"}
+{"id":"no-bilverksted","lang":"Norwegian","locale":"no","transcript":"Bilen må på EU-kontroll før mars ring verkstedet og hør om de har ledig tid neste uke"}
+{"id":"no-barnepass","lang":"Norwegian","locale":"no","transcript":"Ringe mamma og høre om hun kan passe ungene på lørdag vi skal på bryllup"}
+{"id":"no-hytte","lang":"Norwegian","locale":"no","transcript":"Må sjekke om hytta er klar til påske trenger kanskje å fylle propan og sjekke vannet"}
+{"id":"th-renew-registration","lang":"Thai","locale":"th","transcript":"พรุ่งนี้ต้องไปต่อทะเบียนรถที่กรมขนส่งทางบกอย่าลืมเอาเอกสารไปด้วย"}
+{"id":"th-naam-rot","lang":"Thai","locale":"th","transcript":"น้ำรั่วในห้องน้ำต้องเรียกช่างมาซ่อมก่อนมันจะเสียหายหนักกว่านี้"}
+{"id":"th-prachum-wan-jan","lang":"Thai","locale":"th","transcript":"วันจันทร์มีประชุมทีมตอนบ่ายสองต้องเตรียมสไลด์รายงานยอดขายให้เสร็จ"}
+{"id":"th-rak-maa","lang":"Thai","locale":"th","transcript":"ต้องพาหมาไปฉีดวัคซีนที่คลินิกสัตว์เลี้ยงเสาร์นี้นัดไว้ตอนสิบโมง"}
+{"id":"th-songkran-plan","lang":"Thai","locale":"th","transcript":"สงกรานต์นี้จะกลับบ้านต่างจังหวัดต้องจองตั๋วรถทัวร์ให้เร็วก่อนเต็ม"}
+{"id":"ur-doctor-milna","lang":"Urdu","locale":"ur","transcript":"کل صبح ڈاکٹر صاحب سے ملنا ہے بلڈ ٹیسٹ کی رپورٹ لے کر جانا ہے"}
+{"id":"ur-bazaar-saman","lang":"Urdu","locale":"ur","transcript":"شام کو بازار سے سبزی اور گوشت لانا ہے کل مہمان آ رہے ہیں"}
+{"id":"ur-school-fees","lang":"Urdu","locale":"ur","transcript":"بچوں کی سکول فیس جمع کرانی ہے آخری تاریخ پندرہ تاریخ ہے"}
+{"id":"ur-gaari-service","lang":"Urdu","locale":"ur","transcript":"گاڑی کی سروس کروانی ہے آئل چینج اور بریک چیک کرانے ہیں"}
+{"id":"ur-bijli-bill","lang":"Urdu","locale":"ur","transcript":"بجلی کا بل جمع کرانا بھول گیا آج آخری تاریخ ہے جلدی سے ادا کرنا ہے"}
+{"id":"hr-zubar","lang":"Croatian","locale":"hr","transcript":"Moram nazvati zubara i naručiti se za pregled kruna me malo žulja već par dana"}
+{"id":"hr-duchan","lang":"Croatian","locale":"hr","transcript":"Treba otići u dućan po kruh mlijeko i jaja nemamo ništa za doručak sutra"}
+{"id":"hr-auto-registracija","lang":"Croatian","locale":"hr","transcript":"Auto mi ističe registracija krajem mjeseca moram odnijeti na tehnički pregled"}
+{"id":"hr-roditeljski","lang":"Croatian","locale":"hr","transcript":"U četvrtak je roditeljski sastanak u školi u pet popodne ne smijem zaboraviti"}
+{"id":"hr-krov-popravak","lang":"Croatian","locale":"hr","transcript":"Treba popraviti krov na garaži curi kad pada kiša nazvati majstora da dođe pogledati"}
+{"id":"bg-zubolek","lang":"Bulgarian","locale":"bg","transcript":"Трябва да се запиша при зъболекаря тази седмица зъбът ме боли от три дни вече"}
+{"id":"bg-pochivka-more","lang":"Bulgarian","locale":"bg","transcript":"Да резервирам хотел за почивката на морето през юли преди да стане скъпо"}
+{"id":"bg-kolata-mashina","lang":"Bulgarian","locale":"bg","transcript":"Пералнята се развали трябва да извикам майстор или да купим нова вече е стара"}
+{"id":"bg-detski-uchilishte","lang":"Bulgarian","locale":"bg","transcript":"Утре трябва да занеса документите в детската градина за записване на малкия"}
+{"id":"bg-remont-banya","lang":"Bulgarian","locale":"bg","transcript":"Трябва да довършим ремонта на банята плочките са готови но фаянсът не е лепен"}
+{"id":"lt-dantistas","lang":"Lithuanian","locale":"lt","transcript":"Reikia užsiregistruoti pas dantistą jau pusę metų nesu buvęs turi būti skylė"}
+{"id":"lt-pirkiniai","lang":"Lithuanian","locale":"lt","transcript":"Reikia nuvažiuoti į parduotuvę nupirkti pieno duonos ir sūrio šaldytuve tuščia"}
+{"id":"lt-auto-draudimas","lang":"Lithuanian","locale":"lt","transcript":"Baigiasi automobilio draudimas kitą savaitę reikia palyginti kainas ir atnaujinti"}
+{"id":"lt-namu-valymas","lang":"Lithuanian","locale":"lt","transcript":"Šeštadienį reikia išvalyti namus svečiai atvažiuoja sekmadienį iš Kauno"}
+{"id":"lt-sodas","lang":"Lithuanian","locale":"lt","transcript":"Reikia pasodinti pomidorus ir agurkus sode šį savaitgalį jau laikas sėti"}
+{"id":"la-libros-emere","lang":"Latin","locale":"la","transcript":"Cras ad bibliothecam ire debeo et libros reddere nam tempus iam praeteriit"}
+{"id":"la-epistulam-scribere","lang":"Latin","locale":"la","transcript":"Epistulam ad Marcum scribere oportet de convivio quod proximo mense paramus"}
+{"id":"la-hortum-curare","lang":"Latin","locale":"la","transcript":"Hortum curare necesse est herbae nimis creverunt et rosae aquam desiderant"}
+{"id":"la-cenam-parare","lang":"Latin","locale":"la","transcript":"Hodie cenam parare debeo pro amicis panem et caseum emere oportet e foro"}
+{"id":"la-medicum-visitare","lang":"Latin","locale":"la","transcript":"Medicum visitare debeo caput me dolet iam tres dies nec somnus bonus est"}
+{"id":"mi-toa-hokohoko","lang":"Maori","locale":"mi","transcript":"Me haere au ki te toa hokohoko apopo ki te hoko miraka me te parāoa kua pau"}
+{"id":"mi-rata-takuta","lang":"Maori","locale":"mi","transcript":"Me waea atu ki te rata mo te karanga a te wiki e heke mai nei kei mamae tonu te tuarā"}
+{"id":"mi-hui-kura","lang":"Maori","locale":"mi","transcript":"Kei te Paraire te hui matua ki te kura a te tamaiti me haere tahi māua ko tōku hoa"}
+{"id":"mi-whare-peita","lang":"Maori","locale":"mi","transcript":"Me pani peita te rūma moe i tēnei mutunga wiki kua heke te peita tawhito"}
+{"id":"mi-maara-kai","lang":"Maori","locale":"mi","transcript":"Me whakatō kūmara me kamokamo ki te māra kai ināianei kua mahana te whenua"}
+{"id":"ml-kadai-saadhanam","lang":"Malayalam","locale":"ml","transcript":"വൈകുന്നേരം കടയിൽ പോയി അരിയും പഞ്ചസാരയും വാങ്ങണം വീട്ടിൽ തീർന്നു"}
+{"id":"ml-doctor-appointment","lang":"Malayalam","locale":"ml","transcript":"നാളെ രാവിലെ ഡോക്ടറുടെ അടുത്ത് പോകണം ബ്ലഡ് ടെസ്റ്റ് റിസൾട്ട് കാണിക്കണം"}
+{"id":"ml-veedu-repair","lang":"Malayalam","locale":"ml","transcript":"അടുക്കളയിലെ ടാപ്പ് ചോരുന്നുണ്ട് പ്ലംബറെ വിളിക്കണം ഇന്ന് തന്നെ"}
+{"id":"ml-school-meeting","lang":"Malayalam","locale":"ml","transcript":"ശനിയാഴ്ച മോളുടെ സ്കൂളിൽ പി ടി എ മീറ്റിംഗ് ഉണ്ട് രണ്ട് മണിക്ക് പോകണം"}
+{"id":"ml-car-service","lang":"Malayalam","locale":"ml","transcript":"കാറിന്റെ സർവീസ് ചെയ്യിക്കണം ഓയിൽ മാറ്റാൻ സമയമായി സർവീസ് സെന്ററിൽ വിളിക്കണം"}
+{"id":"cy-deintydd","lang":"Welsh","locale":"cy","transcript":"Cofio ffonio'r deintydd bore fory i drefnu apwyntiad, ma'r dant 'na dal yn brifo."}
+{"id":"cy-siopa-nadolig","lang":"Welsh","locale":"cy","transcript":"Angen prynu anrhegion Nadolig i Mam a Dad, ella dillad cynnes neu lyfrau."}
+{"id":"cy-trwsio-to","lang":"Welsh","locale":"cy","transcript":"Mae'r to yn gollwng eto yn y llofft gefn, rhaid cael rhywun i ddod i edrych arno fo wythnos nesa."}
+{"id":"cy-gwaith-cyflwyniad","lang":"Welsh","locale":"cy","transcript":"Rhaid gorffen y cyflwyniad erbyn dydd Iau, mae'r cyfarfod tîm am ddau o'r gloch."}
+{"id":"cy-rysait-cawl","lang":"Welsh","locale":"cy","transcript":"Syniad da — trio gwneud cawl cennin a thatws nos Wener, mae digon o lysiau yn yr oergell."}
+{"id":"sk-zubar","lang":"Slovak","locale":"sk","transcript":"Musím zavolať k zubárovi, ten zub ma trápi už celý týždeň, snáď ma vezmú ešte tento piatok."}
+{"id":"sk-nakup-vikend","lang":"Slovak","locale":"sk","transcript":"Cez víkend treba nakúpiť — chýba nám maslo, múka a vajcia, chcem piecť koláč pre svokru."}
+{"id":"sk-dovolenka-chorvatsko","lang":"Slovak","locale":"sk","transcript":"Pozrieť letenky do Chorvátska na august, najlepšie Split alebo Dubrovník, ideálne na týždeň."}
+{"id":"sk-oprava-umyvadla","lang":"Slovak","locale":"sk","transcript":"Umývadlo v kúpeľni stále kvapká, treba kúpiť nový kohútik a skúsiť to opraviť cez víkend."}
+{"id":"sk-projekt-praca","lang":"Slovak","locale":"sk","transcript":"Na poradu v pondelok pripraviť report o predaji za prvý kvartál, šéf to chce mať v prezentácii."}
+{"id":"te-bazaar","lang":"Telugu","locale":"te","transcript":"సాయంత్రం బజార్ కి వెళ్ళి కూరగాయలు తేవాలి, టమాటాలు ఉల్లిపాయలు అయిపోయాయి."}
+{"id":"te-doctor-appointment","lang":"Telugu","locale":"te","transcript":"అమ్మకి రేపు డాక్టర్ అపాయింట్మెంట్ ఉంది, మరచిపోకుండా మందులు లిస్ట్ తీసుకెళ్ళాలి."}
+{"id":"te-painting-idea","lang":"Telugu","locale":"te","transcript":"హాల్ లో గోడ రంగు మార్చాలి, లైట్ బ్లూ బాగుంటుంది అని నాకు అనిపిస్తోంది."}
+{"id":"te-pelli-gift","lang":"Telugu","locale":"te","transcript":"రాజు పెళ్ళికి గిఫ్ట్ కొనాలి, బడ్జెట్ రెండు వేలు ఉంచుకుందాం, మంచి గిన్నెల సెట్ బాగుంటుంది."}
+{"id":"te-office-meeting","lang":"Telugu","locale":"te","transcript":"సోమవారం క్లయింట్ మీటింగ్ ఉంది, ప్రెజెంటేషన్ స్లైడ్స్ ఈ రోజు సాయంత్రం లోపల రెడీ చేయాలి."}
+{"id":"fa-dandanpezeshk","lang":"Persian","locale":"fa","transcript":"یادم باشه فردا صبح به دندونپزشک زنگ بزنم، دندون عقلم خیلی درد می‌کنه باید بکشمش."}
+{"id":"fa-kharid-miveh","lang":"Persian","locale":"fa","transcript":"از سر راه میوه بخرم، پرتقال و موز تموم شده، یه هندونه هم اگه خوب بود بردارم."}
+{"id":"fa-safar-shiraz","lang":"Persian","locale":"fa","transcript":"بلیط قطار شیراز رو برای عید رزرو کنم، دوتا بزرگسال یه بچه، ترجیحاً کوپه ‌ای."}
+{"id":"fa-tamir-shir","lang":"Persian","locale":"fa","transcript":"شیر آب آشپزخونه چکه می‌کنه، باید یه لوله‌کش خبر کنم یا خودم واشر عوض کنم."}
+{"id":"fa-poroje-kari","lang":"Persian","locale":"fa","transcript":"گزارش فصل سوم رو باید تا چهارشنبه تحویل بدم، هنوز نمودارها آماده نیست."}
+{"id":"lv-zobars","lang":"Latvian","locale":"lv","transcript":"Jāpierakstās pie zobārsta, tas zobs sāp jau otro nedēļu, varbūt piektdien ir brīva vieta."}
+{"id":"lv-iepirkumi","lang":"Latvian","locale":"lv","transcript":"Jānopērk piens, maize un olas, un vēl vajag sviestu tai kūkai sestdien."}
+{"id":"lv-celiojums-riga","lang":"Latvian","locale":"lv","transcript":"Jāpaskatās biļetes uz Rīgu nākamnedēļ, varbūt ar vilcienu, tā ir lētāk nekā ar auto."}
+{"id":"lv-remonts-jumts","lang":"Latvian","locale":"lv","transcript":"Jumts tek guļamistabā, jāzvana meistaram lai atnāk apskatīties, varbūt tikai dakstiņš jānomaina."}
+{"id":"lv-darbs-atskaite","lang":"Latvian","locale":"lv","transcript":"Pirmdien jāiesniedz ceturkšņa atskaite, vēl jāpabeidz grafiki un jāpārskata skaitļi."}
+{"id":"bn-bazaar","lang":"Bengali","locale":"bn","transcript":"সন্ধ্যায় বাজারে যেতে হবে, পেঁয়াজ আলু টমেটো শেষ হয়ে গেছে, মাছও আনতে হবে।"}
+{"id":"bn-doctor","lang":"Bengali","locale":"bn","transcript":"বাবার কাল ডাক্তারের অ্যাপয়েন্টমেন্ট আছে, প্রেশারের ওষুধ শেষ হয়ে গেছে সেটাও লিখিয়ে আনতে হবে।"}
+{"id":"bn-beral-rong","lang":"Bengali","locale":"bn","transcript":"ঘরের দেয়ালে রং করাতে হবে, হালকা হলুদ ভালো লাগবে মনে হচ্ছে, রং মিস্ত্রীকে ফোন করব।"}
+{"id":"bn-bhromon-darjeeling","lang":"Bengali","locale":"bn","transcript":"পুজোর সময় দার্জিলিং যাওয়ার প্ল্যান করতে হবে, হোটেল আগে থেকে বুক না করলে পাওয়া যাবে না।"}
+{"id":"bn-office-report","lang":"Bengali","locale":"bn","transcript":"সোমবারের মধ্যে প্রজেক্ট রিপোর্ট জমা দিতে হবে, ডেটা অ্যানালাইসিস পার্টটা এখনো বাকি আছে।"}
+{"id":"sr-zubar","lang":"Serbian","locale":"sr","transcript":"Морам да закажем зубара, овај зуб ме мучи већ недељу дана, надам се да има термин у петак."}
+{"id":"sr-kupovina-vikend","lang":"Serbian","locale":"sr","transcript":"За викенд треба да купим брашно, јаја и шећер, хоћу да правим торту за славу."}
+{"id":"sr-putovanje-grcka","lang":"Serbian","locale":"sr","transcript":"Да погледам карте за Грчку у августу, најбоље Солун или Тасос, за пет дана барем."}
+{"id":"sr-popravka-slavina","lang":"Serbian","locale":"sr","transcript":"Славина у купатилу цури, мора да се замени гарнитура или да позовем водоинсталатера."}
+{"id":"sr-posao-prezentacija","lang":"Serbian","locale":"sr","transcript":"Морам да завршим презентацију до среде, шеф хоће извештај о продаји за први квартал."}
+{"id":"az-dishchi","lang":"Azerbaijani","locale":"az","transcript":"Sabah dişçiyə zəng etməliyəm, bu diş artıq bir həftədir ağrıyır, cümə günü vaxt olsa yaxşıdır."}
+{"id":"az-bazar-alish","lang":"Azerbaijani","locale":"az","transcript":"Axşam bazara getmək lazımdır, pomidor, soğan və kartof qurtarıb, bir az da pendir alım."}
+{"id":"az-sefar-baki","lang":"Azerbaijani","locale":"az","transcript":"Novruz bayramına Bakıya bilet baxmalıyam, qatar ilə getsək daha rahat olar, iki nəfərlik."}
+{"id":"az-tamir-dam","lang":"Azerbaijani","locale":"az","transcript":"Yataq otağında dam axır, usta çağırmalıyam ki baxsın, yəqin kiçik təmir lazımdır."}
+{"id":"az-ish-hesabat","lang":"Azerbaijani","locale":"az","transcript":"Bazar ertəsinə qədər rüblük hesabatı hazırlamalıyam, hələ qrafiklər və rəqəmlər yoxlanılmayıb."}
+{"id":"sl-zobar","lang":"Slovenian","locale":"sl","transcript":"Moram poklicati zobozdravnika, ta zob me muči že cel teden, upam da imajo prost termin v petek."}
+{"id":"sl-nakup-vikend","lang":"Slovenian","locale":"sl","transcript":"Čez vikend moram v trgovino po moko, jajca in maslo, naredila bom potico za nedeljo."}
+{"id":"sl-potovanje-hrvatska","lang":"Slovenian","locale":"sl","transcript":"Treba pogledati karte za Hrvaško avgusta, najraje Rovinj ali Split, za kakšen teden."}
+{"id":"sl-popravilo-pipa","lang":"Slovenian","locale":"sl","transcript":"Pipa v kopalnici kaplja, treba kupiti nov tesnilo ali poklicati vodoinstalatera."}
+{"id":"sl-delo-porocilo","lang":"Slovenian","locale":"sl","transcript":"Do ponedeljka moram oddati četrtletno poročilo, grafi in številke še niso preverjeni."}
+{"id":"kn-tarkari-angadi","lang":"Kannada","locale":"kn","transcript":"ಸಂಜೆ ತರಕಾರಿ ಅಂಗಡಿಗೆ ಹೋಗಬೇಕು, ಟೊಮೆಟೊ ಈರುಳ್ಳಿ ಮುಗಿದಿದೆ, ಸ್ವಲ್ಪ ಹಣ್ಣು ಕೂಡ ತರಬೇಕು."}
+{"id":"kn-doctor-appointment","lang":"Kannada","locale":"kn","transcript":"ಅಮ್ಮನಿಗೆ ನಾಳೆ ಡಾಕ್ಟರ್ ಅಪಾಯಿಂಟ್ಮೆಂಟ್ ಇದೆ, ಮಾತ್ರೆ ಲಿಸ್ಟ್ ತೆಗೆದುಕೊಂಡು ಹೋಗಬೇಕು."}
+{"id":"kn-mane-painting","lang":"Kannada","locale":"kn","transcript":"ಹಾಲ್ ಗೋಡೆಗೆ ಹೊಸ ಪೇಂಟ್ ಮಾಡಿಸಬೇಕು, ಲೈಟ್ ಗ್ರೀನ್ ಚೆನ್ನಾಗಿರುತ್ತೆ ಅನ್ನಿಸುತ್ತೆ, ಪೇಂಟರ್ ಗೆ ಫೋನ್ ಮಾಡಬೇಕು."}
+{"id":"kn-maduve-gift","lang":"Kannada","locale":"kn","transcript":"ರಾಜು ಮದುವೆಗೆ ಗಿಫ್ಟ್ ತೆಗೆದುಕೊಳ್ಳಬೇಕು, ಬಜೆಟ್ ಎರಡು ಸಾವಿರ ಇಟ್ಟುಕೊಳ್ಳೋಣ, ಒಳ್ಳೆ ಪಾತ್ರೆ ಸೆಟ್ ಆಗಬಹುದು."}
+{"id":"kn-office-meeting","lang":"Kannada","locale":"kn","transcript":"ಸೋಮವಾರ ಕ್ಲೈಂಟ್ ಮೀಟಿಂಗ್ ಇದೆ, ಪ್ರೆಸೆಂಟೇಶನ್ ಸ್ಲೈಡ್ಸ್ ಇವತ್ತು ಸಂಜೆ ಒಳಗೆ ರೆಡಿ ಮಾಡಬೇಕು."}
+{"id": "et-hambaarst", "lang": "Estonian", "locale": "et", "transcript": "Homme hommikul kell üheksa on hambaarsti aeg, pean meeles pidama."}
+{"id": "et-pood", "lang": "Estonian", "locale": "et", "transcript": "Poest tuleb osta piima, leiba ja juustu, külmkapp on tühi."}
+{"id": "et-remont", "lang": "Estonian", "locale": "et", "transcript": "Vannitoa kraan tilgub jälle, peaks torumehe kutsuma sel nädalal."}
+{"id": "et-sunniapaev", "lang": "Estonian", "locale": "et", "transcript": "Emale tuleb sünnipäevaks lilled osta, ta sünnipäev on reedel."}
+{"id": "et-koosolek", "lang": "Estonian", "locale": "et", "transcript": "Kolmapäeval on meeskonna koosolek kell kaks, pean esitluse ette valmistama."}
+{"id": "mk-doktor", "lang": "Macedonian", "locale": "mk", "transcript": "Утре имам преглед кај доктор во десет часот, не смеам да заборавам."}
+{"id": "mk-pazar", "lang": "Macedonian", "locale": "mk", "transcript": "Треба да одам на пазар да купам домати, пиперки и кромид за вечера."}
+{"id": "mk-patuvanje", "lang": "Macedonian", "locale": "mk", "transcript": "Во сабота летаме за Охрид, мора да спакувам куфер вечерва."}
+{"id": "mk-majstor", "lang": "Macedonian", "locale": "mk", "transcript": "Бојлерот не грее вода, треба да повикам мајстор што поскоро."}
+{"id": "mk-rodenden", "lang": "Macedonian", "locale": "mk", "transcript": "Петре има роденден в петок, да не заборавам да купам подарок."}
+{"id": "br-medisin", "lang": "Breton", "locale": "br", "transcript": "Rankont gant ar medisinour d'ar yaou da nav eur, ne ran ket ankounac'haat."}
+{"id": "br-marchad", "lang": "Breton", "locale": "br", "transcript": "Ret eo din mont d'ar marc'had da brenañ amanenn, bara hag avaloù."}
+{"id": "br-ti", "lang": "Breton", "locale": "br", "transcript": "An doenn er sal-debriñ a zo torret, ret eo lakaat unan nevez."}
+{"id": "br-vakans", "lang": "Breton", "locale": "br", "transcript": "Penaos e vefe mont da Vreizh-Izel e miz Eost, goulenn gant Yann ma fell dezhañ dont."}
+{"id": "br-labour", "lang": "Breton", "locale": "br", "transcript": "Emañ ar raktres da vezañ echuet a-raok fin ar miz, ret eo buanaat."}
+{"id": "eu-medikua", "lang": "Basque", "locale": "eu", "transcript": "Bihar goizeko bederatzietarako medikuaren hitzordua daukat, ez zait ahaztu behar."}
+{"id": "eu-azoka", "lang": "Basque", "locale": "eu", "transcript": "Azokatik arrautzak, ogia eta gazta erosi behar ditut gaur arratsaldean."}
+{"id": "eu-bidaia", "lang": "Basque", "locale": "eu", "transcript": "Abuztuan Donostiara joateko hotela erreserbatu behar dut lehen bai lehen."}
+{"id": "eu-konponketa", "lang": "Basque", "locale": "eu", "transcript": "Sukaldaritzako argia keinuka ari da, elektrizistak begiratu beharko luke."}
+{"id": "eu-lana", "lang": "Basque", "locale": "eu", "transcript": "Ostegunerako txostena bukatu behar dut, nagusiari bidali aurretik berrikusi."}
+{"id": "is-tannlaekni", "lang": "Icelandic", "locale": "is", "transcript": "Ég er með tíma hjá tannlækni á morgun klukkan tíu, má ekki gleyma því."}
+{"id": "is-verslun", "lang": "Icelandic", "locale": "is", "transcript": "Ég þarf að kaupa mjólk, brauð og ost í búðinni á leiðinni heim."}
+{"id": "is-ferdaplan", "lang": "Icelandic", "locale": "is", "transcript": "Við ætlum til Akureyrar um helgina, þarf að bóka gistingu í kvöld."}
+{"id": "is-vidhald", "lang": "Icelandic", "locale": "is", "transcript": "Kraninn í baðherberginu lekur, þarf að hringja í pípulagningamann á morgun."}
+{"id": "is-vinna", "lang": "Icelandic", "locale": "is", "transcript": "Fundur með teyminu á miðvikudag klukkan tvö, þarf að undirbúa skýrsluna."}
+{"id": "hy-bzhishk", "lang": "Armenian", "locale": "hy", "transcript": "Վաղը առավոտյան տասը բժիշկի մոտ եմ, չպետք մոռանամ."}
+{"id": "hy-shuka", "lang": "Armenian", "locale": "hy", "transcript": "Շուկայից պետք է առնեմ լոլիկ, վարունգ ու հաց."}
+{"id": "hy-chanaparh", "lang": "Armenian", "locale": "hy", "transcript": "Շաբաթ թռչում ենք Դիլիիան, պետք է փաթեթներ ճամպրուկը."}
+{"id": "hy-veranoroshum", "lang": "Armenian", "locale": "hy", "transcript": "Խոհանոցի ծորակը կաթում է, պետք է վարպետ կանչեմ."}
+{"id": "hy-ashkhatanq", "lang": "Armenian", "locale": "hy", "transcript": "Հինգշաբթի համար նախագիծը պետք է պատրաստեմ, վերին վերստուգեմ."}
+{"id": "ne-daktar", "lang": "Nepali", "locale": "ne", "transcript": "भोलि बिहान दश बजे डाक्टरको भेट्ने छ, बिर्सनु हुन्न."}
+{"id": "ne-bazaar", "lang": "Nepali", "locale": "ne", "transcript": "बजारबाट तरकारी, आलु र गोलभेडा ल्याउनु पर्छ."}
+{"id": "ne-yatra", "lang": "Nepali", "locale": "ne", "transcript": "शनिबार पोखरा जाने कुरा छ, होटल बुक गर्नु पर्छ."}
+{"id": "ne-ghar", "lang": "Nepali", "locale": "ne", "transcript": "बाथरुमको धारा चुहिरहेको छ, प्लम्बर बोलाउनु पर्छ."}
+{"id": "ne-kaam", "lang": "Nepali", "locale": "ne", "transcript": "बिहीबारसम्म रिपोर्ट बुझाउनु पर्छ, बसले पठाउनु पर्छ."}
+{"id": "mn-emch", "lang": "Mongolian", "locale": "mn", "transcript": "Маргааш өглөө арван цагт эмчид үзүүлэх цаг авсан, мартах болохгүй."}
+{"id": "mn-delguur", "lang": "Mongolian", "locale": "mn", "transcript": "Дэлгүүрээс сүү, мах, төмс авах хэрэгтэй, хөргө хоосон байна."}
+{"id": "mn-ayalal", "lang": "Mongolian", "locale": "mn", "transcript": "Зуны амралтаар Хөвсгөл нуур руу явах төлөвлөгөө хийх хэрэгтэй."}
+{"id": "mn-zasvar", "lang": "Mongolian", "locale": "mn", "transcript": "Гал тогооны хоолой гоожиж байна, засварчин дуудах хэрэгтэй."}
+{"id": "mn-ajil", "lang": "Mongolian", "locale": "mn", "transcript": "Пүрэв гарагийн өмнө илтгэлийг бэлтгэх хэрэгтэй, даргад үзүүлхээс өмнө."}
+{"id": "bs-doktor", "lang": "Bosnian", "locale": "bs", "transcript": "Sutra ujutro imam pregled kod doktora u deset, ne smijem zaboraviti."}
+{"id": "bs-pijaca", "lang": "Bosnian", "locale": "bs", "transcript": "Trebam na pijacu kupiti paradajz, luk i papriku za ručak."}
+{"id": "bs-putovanje", "lang": "Bosnian", "locale": "bs", "transcript": "U subotu putujemo u Mostar, moram večeras spakovati kofer."}
+{"id": "bs-majstor", "lang": "Bosnian", "locale": "bs", "transcript": "Slavina u kupatilu curi, trebam pozvati majstora što prije."}
+{"id": "bs-posao", "lang": "Bosnian", "locale": "bs", "transcript": "U srijedu imam sastanak s timom u dva, moram pripremiti prezentaciju."}
+{"id": "kk-darigar", "lang": "Kazakh", "locale": "kk", "transcript": "Ертең таңертең онда дәрігерге жазылғанмын, ұмытпау керек."}
+{"id": "kk-dukan", "lang": "Kazakh", "locale": "kk", "transcript": "Дүкеннен сүт, нан және ет алу керек, тоңазытқыш бос."}
+{"id": "kk-sapar", "lang": "Kazakh", "locale": "kk", "transcript": "Сенбіде Алматыға ұшамыз, қонақ үйді брондау керек."}
+{"id": "kk-zhondeu", "lang": "Kazakh", "locale": "kk", "transcript": "Асүйдегі құбыр ағып тұр, сантехникті шақыру керек."}
+{"id": "kk-zhymys", "lang": "Kazakh", "locale": "kk", "transcript": "Бейсенбіге дейін есепті аяқтау керек, басшыға жіберуден бұрын."}
+{"id":"sq-dentisti","lang":"Albanian","locale":"sq","transcript":"Duhet të marr dentistin nesër në mëngjes, se më dhemb dhëmbi i fundit majtas."}
+{"id":"sq-pazar","lang":"Albanian","locale":"sq","transcript":"Kur të shkoj te pazari merr pak domate, speca dhe bukë të bardhë."}
+{"id":"sq-pushime","lang":"Albanian","locale":"sq","transcript":"Po mendoj të shkojmë në Sarandë për pushime në gusht, duhet të rezervoj hotelin sa më parë."}
+{"id":"sq-taksi","lang":"Albanian","locale":"sq","transcript":"Mos harro porosi taksinë për nesër në orën shtatë, duhet të jem në aeroport herët."}
+{"id":"sq-cati","lang":"Albanian","locale":"sq","transcript":"Çatia po pikon te dhoma e gjumit, duhet të thërras dikë për ta rregulluar."}
+{"id":"sw-duka-matunda","lang":"Swahili","locale":"sw","transcript":"Nikipita sokoni ninunue maembe, ndizi na nyanya, zimekwisha jikoni."}
+{"id":"sw-daktari","lang":"Swahili","locale":"sw","transcript":"Appointment ya daktari ni Jumanne saa nne asubuhi, usiisahau."}
+{"id":"sw-safari","lang":"Swahili","locale":"sw","transcript":"Tunapanga kwenda Zanzibar mwezi ujao, lazima niangalie tiketi za ndege mapema."}
+{"id":"sw-kazi","lang":"Swahili","locale":"sw","transcript":"Bosi alisema ripoti ya mradi inatakiwa kuwa tayari ifikapo Ijumaa mchana."}
+{"id":"sw-gari","lang":"Swahili","locale":"sw","transcript":"Gari linatoa sauti ya ajabu breki zinapobonyezwa, nipige simu fundi kesho."}
+{"id":"gl-dentista","lang":"Galician","locale":"gl","transcript":"Teño que chamar ao dentista para pedir cita, lévome semanas con dor de moas."}
+{"id":"gl-compra","lang":"Galician","locale":"gl","transcript":"Cando pases polo súper colle leite, ovos e pan de centeo que non queda nada."}
+{"id":"gl-viaxe","lang":"Galician","locale":"gl","transcript":"Estou mirando voos a Lisboa para o ponte de maio, a ver se atopo algo barato."}
+{"id":"gl-tellado","lang":"Galician","locale":"gl","transcript":"O tellado ten unha filtración na cociña, hai que chamar ao albanelo antes de que chova máis."}
+{"id":"gl-reunión","lang":"Galician","locale":"gl","transcript":"Mañá ás dez teño reunión co xefe para falar do proxecto novo, preparar os datos."}
+{"id":"mr-bhaji","lang":"Marathi","locale":"mr","transcript":"बाजारातून कांदे, टोमॅटो आणि कोथिंबीर आणायची आहे, संध्याकाळी भाजी करायची आहे."}
+{"id":"mr-doctor","lang":"Marathi","locale":"mr","transcript":"उद्या सकाळी दहा वाजता डॉक्टरांची अपॉइंटमेंट आहे, रिपोर्ट्स घेऊन जायला विसरू नकोस."}
+{"id":"mr-gaadi","lang":"Marathi","locale":"mr","transcript":"गाडीचं सर्व्हिसिंग करायला हवं, ऑइल चेंज आणि ब्रेक तपासायला लावायचे आहेत."}
+{"id":"mr-shalaa","lang":"Marathi","locale":"mr","transcript":"मुलाच्या शाळेत पालक सभा आहे शनिवारी, टीचरशी बोलायचं आहे गणिताबद्दल."}
+{"id":"mr-ghar","lang":"Marathi","locale":"mr","transcript":"बाथरूममधला नळ गळतोय, प्लंबरला फोन करायला हवा आज संध्याकाळपर्यंत."}
+{"id":"pa-sabzi","lang":"Punjabi","locale":"pa","transcript":"ਬਜ਼ਾਰੋਂ ਆਲੂ, ਪਿਆਜ਼ ਤੇ ਹਰੀ ਮਿਰਚ ਲੈ ਕੇ ਆਉਣਾ, ਰਾਤ ਨੂੰ ਸਬਜ਼ੀ ਬਣਾਉਣੀ ਆ।"}
+{"id":"pa-doctor","lang":"Punjabi","locale":"pa","transcript":"ਕੱਲ੍ਹ ਸਵੇਰੇ ਡਾਕਟਰ ਕੋਲ ਜਾਣਾ, ਗੋਡਿਆਂ ਵਿੱਚ ਦਰਦ ਬਹੁਤ ਵਧ ਗਿਆ ਹੈ।"}
+{"id":"pa-viaah","lang":"Punjabi","locale":"pa","transcript":"ਭੈਣ ਦੇ ਵਿਆਹ ਲਈ ਸੂਟ ਸਿਲਵਾਉਣਾ, ਦਰਜ਼ੀ ਕੋਲ ਕੱਪੜਾ ਲੈ ਕੇ ਜਾਣਾ ਐਤਵਾਰ ਨੂੰ।"}
+{"id":"pa-ghar","lang":"Punjabi","locale":"pa","transcript":"ਛੱਤ ਤੋਂ ਪਾਣੀ ਟਪਕ ਰਿਹਾ, ਮਿਸਤਰੀ ਨੂੰ ਬੁਲਾ ਕੇ ਮੁਰੰਮਤ ਕਰਵਾਉਣੀ ਪਵੇਗੀ।"}
+{"id":"pa-kaam","lang":"Punjabi","locale":"pa","transcript":"ਅੱਜ ਸ਼ਾਮ ਤੱਕ ਆਫ਼ਿਸ ਦੀ ਰਿਪੋਰਟ ਪੂਰੀ ਕਰਨੀ ਆ, ਬੌਸ ਨੇ ਡੈੱਡਲਾਈਨ ਦਿੱਤੀ ਹੈ।"}
+{"id":"si-welenda","lang":"Sinhala","locale":"si","transcript":"හෙට උදේ වෙළඳපොළට ගිහින් පොල්, ලූනු, මිරිස් ටිකක් ගන්න ඕන."}
+{"id":"si-dosthara","lang":"Sinhala","locale":"si","transcript":"බදාදා දවසේ දොස්තර මහත්තයගේ appointment එක තියෙනවා, රිපෝට්ස් අරන් යන්න ඕන."}
+{"id":"si-niwasa","lang":"Sinhala","locale":"si","transcript":"බාත්රූම් එකේ නල එක ලීක් වෙනවා, plumber කෙනෙක්ට කතා කරන්න ඕන හෙට."}
+{"id":"si-raajya","lang":"Sinhala","locale":"si","transcript":"ලබන මාසේ ගාල්ලට යන්න හිතාගෙන ඉන්නවා, හෝටලයක් බුක් කරන්න ඕන."}
+{"id":"si-paasala","lang":"Sinhala","locale":"si","transcript":"දරුවාගේ පාසලේ මව්පිය දිනය සෙනසුරාදා, ටීචර්ලා එක්ක කතා කරන්න ඕන."}
+{"id":"km-psaa","lang":"Khmer","locale":"km","transcript":"ទៅផ្សារទិញត្រីស្រស់ ប៉េងប៉ោះ និងម្ទេសបន្តិច សម្រាប់ធ្វើម្ហូបពេលល្ងាច។"}
+{"id":"km-pet","lang":"Khmer","locale":"km","transcript":"ស្អែកព្រឹកត្រូវទៅមន្ទីរពេទ្យ ពិនិត្យសុខភាព ដាក់ថ្នាំបញ្ចប់វគ្គព្យាបាល។"}
+{"id":"km-phteah","lang":"Khmer","locale":"km","transcript":"ដំបូលផ្ទះមានលេចទឹក ត្រូវហៅជាងមកជួសជុលមុនរដូវវស្សា។"}
+{"id":"km-kar","lang":"Khmer","locale":"km","transcript":"របាយការណ៍ការងារត្រូវបញ្ចប់ថ្ងៃសុក្រ ចៅហ្វាយប្រាប់ឱ្យផ្ញើតាមអ៊ីមែល។"}
+{"id":"km-damnae","lang":"Khmer","locale":"km","transcript":"កំពុងគិតទៅលេងសៀមរាបចុងសប្ដាហ៍ក្រោយ ត្រូវកក់សណ្ឋាគារជាមុនសិន។"}
+{"id":"sn-chipatara","lang":"Shona","locale":"sn","transcript":"Ndoda kuenda kuchipatara mangwana mangwanani, musoro uri kurwadza mazuva ese."}
+{"id":"sn-musika","lang":"Shona","locale":"sn","transcript":"Kana uchienda kumusika tenga matomato, onion ne bread yakanaka."}
+{"id":"sn-basa","lang":"Shona","locale":"sn","transcript":"Mwana ane musangano wechikoro neSaturday, ndinoda kutaura nateacher wake pamusoro pemath."}
+{"id":"sn-imba","lang":"Shona","locale":"sn","transcript":"Mvura iri kupinda muimba kubva padenga, tinoda kugadzirisa roof tisati tapinda mumwaka wemvura."}
+{"id":"sn-rwendo","lang":"Shona","locale":"sn","transcript":"Tiri kuronga kuenda kuKariba next month, ndinoda kubhuka mahotera nematikiti."}
+{"id":"yo-oja","lang":"Yoruba","locale":"yo","transcript":"Mo fẹ́ lọ sí ọjà lọ́wọ́ ìrọ̀lẹ́ ra tòmátì, àlùbọ́sà àti ẹ̀fọ́ tètè fún oúnjẹ alẹ́."}
+{"id":"yo-dókítà","lang":"Yoruba","locale":"yo","transcript":"Ọjọ́ kẹta ni mo ní appointment pẹ̀lú dókítà, ikún mi ti ń dùn mí fún ọ̀sẹ̀ kan."}
+{"id":"yo-ilé","lang":"Yoruba","locale":"yo","transcript":"Orúlé ilé ń jó omi, mo nílò láti pe agbẹ́nusọ́ kí ó wá ṣe é kí òjò tó dé."}
+{"id":"yo-iṣẹ","lang":"Yoruba","locale":"yo","transcript":"Ọ̀gá mi sọ pé kí n parí ìròyìn iṣẹ́ ní ọjọ́ Friday, mo gbọdọ̀ bẹ̀rẹ̀ lónìí."}
+{"id":"yo-irin-ajo","lang":"Yoruba","locale":"yo","transcript":"Mo fẹ́ lọ sí Abuja ní oṣù tó ń bọ̀, mo nílò láti ra tikẹ́tì ọkọ̀ òfurufú."}
+{"id":"so-suuq","lang":"Somali","locale":"so","transcript":"Marka aad suuqa aaddo ii soo iibso baradho, basal iyo khudaar cagaar ah cuntada habeenkii."}
+{"id":"so-dhakhtar","lang":"Somali","locale":"so","transcript":"Berri subaxdii waa inaan dhakhtarka u tegaa, dhabarka ayaa ii xanuunaya toddobaadkii oo dhan."}
+{"id":"so-guri","lang":"Somali","locale":"so","transcript":"Tuubada musqusha ayaa qulqulaysaa, waa inaan soo wacaa injineer si uu u hagaajiyo."}
+{"id":"so-safar","lang":"Somali","locale":"so","transcript":"Waxaan rabaa inaan Hargeysa u safro bisha soo socota, waa inaan tigidhka raadiyaa hadda."}
+{"id":"so-shaqo","lang":"Somali","locale":"so","transcript":"Warbixinta shaqada waa inay diyaar noqotaa Jimcaha, madaxu wuxuu i siiyay deadline."}
+{"id":"af-tandarts","lang":"Afrikaans","locale":"af","transcript":"Ek moet onthou om die tandarts te bel vir 'n afspraak volgende week, my een vulsel voel los."}
+{"id":"af-kruideniersware","lang":"Afrikaans","locale":"af","transcript":"Moet nog melk, brood en eiers koop vir die naweek, en kyk of hulle braai-vleis het by die slaghuis."}
+{"id":"af-dak","lang":"Afrikaans","locale":"af","transcript":"Die dak lek weer by die badkamer, ek moet 'n loodgieter kry om dit te kom regmaak voor die reënseisoen."}
+{"id":"af-vakansie","lang":"Afrikaans","locale":"af","transcript":"Ons moet die Kaapstad-vakansie begin beplan, vliegtuigkaartjies word duurder hoe langer ons wag."}
+{"id":"af-vergadering","lang":"Afrikaans","locale":"af","transcript":"Môre-oggend se vergadering is verskuif na twee-uur, moet vir Johan ook laat weet hy moet die verslag saambring."}
+{"id":"oc-dentista","lang":"Occitan","locale":"oc","transcript":"Cal que telefòni al dentista deman matin, me fa mau la dent de darrèr dempuèi la setmana passada."}
+{"id":"oc-mercat","lang":"Occitan","locale":"oc","transcript":"Passar pel mercat comprar de tomatas, de pefo e d'òli d'oliva, e verificar se i a de fromatge fresc."}
+{"id":"oc-idèa-app","lang":"Occitan","locale":"oc","transcript":"Ai agut una idèa per una aplicacion que te rapèla de regar las plantas segon la metèo e la sason."}
+{"id":"oc-cò","lang":"Occitan","locale":"oc","transcript":"Lo cò perd d'aiga al nivèl del lavabò, me cal crompar un jòc de joints e lo reparar deman sèr."}
+{"id":"oc-vacàncias","lang":"Occitan","locale":"oc","transcript":"Organizar las vacàncias de julhet a Montpelhièr, reservar l'òstal e getar un còp d'uèlh als bilhets de tren."}
+{"id":"ka-stumari","lang":"Georgian","locale":"ka","transcript":"ხვალ სტუმრები მოდიან სადილზე, უნდა ვიყიდო ხორცი და ბოსტნეული ბაზრიდან დილით ადრე."}
+{"id":"ka-eqimi","lang":"Georgian","locale":"ka","transcript":"ექიმთან ვიზიტი პარასკევს მაქვს, არ უნდა დამავიწყდეს ანალიზების პასუხები თან წავიღო."}
+{"id":"ka-remonti","lang":"Georgian","locale":"ka","transcript":"სამზარეულოს ონკანი წვეთავს, ხელოსანს დავურეკავ რომ მოვიდეს და გაასწოროს ამ კვირაში."}
+{"id":"ka-mogzauroba","lang":"Georgian","locale":"ka","transcript":"ბათუმში მოგზაურობა უნდა დავგეგმოთ აგვისტოში, სასტუმრო და მანქანა წინასწარ უნდა დავჯავშნოთ."}
+{"id":"ka-proeqti","lang":"Georgian","locale":"ka","transcript":"სამსახურში ახალი პროექტის პრეზენტაცია ორშაბათს არის, სლაიდები კიდევ უნდა გადავამოწმო და ციფრები განვაახლო."}
+{"id":"be-zuby","lang":"Belarusian","locale":"be","transcript":"Трэба запісацца да зубнога на наступны тыдзень, адзін зуб пачаў балець пасля халоднага."}
+{"id":"be-krama","lang":"Belarusian","locale":"be","transcript":"Зайсці ў краму па малако, хлеб і сыр, і яшчэ паглядзець ці ёсць свежая сметана."}
+{"id":"be-remont","lang":"Belarusian","locale":"be","transcript":"У ваннай цячэ кран, трэба выклікаць сантэхніка ці самому замяніць пракладку на выхадных."}
+{"id":"be-kamandzyrowka","lang":"Belarusian","locale":"be","transcript":"На наступны месяц камандзіроўка ў Мінск, трэба забраніраваць гатэль і купіць білеты на цягнік загадзя."}
+{"id":"be-sabaka","lang":"Belarusian","locale":"be","transcript":"Сабаку трэба завезці да ветэрынара на прышчэпку ў суботу, запісацца лепш сёння."}
+{"id":"tg-духтур","lang":"Tajik","locale":"tg","transcript":"Бояд ба духтури дандон вақт гирам, як дандони ақиб дард мекунад, шояд пур кардан лозим аст."}
+{"id":"tg-бозор","lang":"Tajik","locale":"tg","transcript":"Аз бозор сабзавот ва мева харидан лозим, махсусан помидор, бодиринг ва себ барои ин ҳафта."}
+{"id":"tg-сафар","lang":"Tajik","locale":"tg","transcript":"Сафари Душанберо бояд барнома резӣ кунам, чиптаи ҳавопаймо ва меҳмонхона пешакӣ фармоиш диҳам."}
+{"id":"tg-таъмир","lang":"Tajik","locale":"tg","transcript":"Дар ошхона кран об мечакад, усто даъват кунам ё худам вошерро иваз мекунам охири ҳафта."}
+{"id":"tg-ҷаласа","lang":"Tajik","locale":"tg","transcript":"Пагоҳ соати даҳ ҷаласа дорем дар кор, бояд ҳисоботро тайёр кунам ва рақамҳоро як бори дигар санҷам."}
+{"id":"sd-ڏاڪٽر","lang":"Sindhi","locale":"sd","transcript":"سڀاڻي ڏاڪٽر وٽ وڃڻو آهي، پيٽ ۾ ڏکيو ٿو ٻن ڏينهن کان، دوا به لکي ڏئي."}
+{"id":"sd-بازار","lang":"Sindhi","locale":"sd","transcript":"بازار مان چانور، ماني ۽ سبزيون آڻڻيون آهن، گهر ۾ مصالا به ختم ٿي ويا آهن."}
+{"id":"sd-سفر","lang":"Sindhi","locale":"sd","transcript":"ڪراچيءَ جو سفر ايندڙ مهيني آهي، هوٽل ۽ ٽڪيٽ اڳ ۾ بُڪ ڪرائڻيون آهن."}
+{"id":"sd-مرمت","lang":"Sindhi","locale":"sd","transcript":"ڇت مان پاڻي ٽپڪي ٿو، مستري کي سڏيو ته اچي سڏائي ته برسات کان اڳ مرمت ڪري."}
+{"id":"sd-ملاقات","lang":"Sindhi","locale":"sd","transcript":"اڄ شام کي دفتر ۾ ملاقات آهي، پريزنٽيشن تيار ڪرڻي آهي ۽ نمبر چيڪ ڪرڻا آهن."}
+{"id":"gu-દવાખાનું","lang":"Gujarati","locale":"gu","transcript":"આવતા અઠવાડિયે દાંતના ડૉક્ટર પાસે જવાનું છે, એક દાંત ભરાવવાનો છે એ ઢીલો થઈ ગયો છે."}
+{"id":"gu-કરિયાણું","lang":"Gujarati","locale":"gu","transcript":"કરિયાણાની દુકાનેથી ચોખા, દાળ ને તેલ લાવવાનું છે, ને હળદર પણ ખલાસ થઈ ગઈ છે."}
+{"id":"gu-મુસાફરી","lang":"Gujarati","locale":"gu","transcript":"દિવાળીમાં રાજકોટ જવાનું પ્લાન છે, ટ્રેનની ટિકિટ વહેલી બુક કરાવવી પડશે નહીંતર મળશે નહીં."}
+{"id":"gu-રિપેર","lang":"Gujarati","locale":"gu","transcript":"બાથરૂમનો નળ ટપકે છે રાતભર, પ્લમ્બરને બોલાવો કે શનિવારે આવીને ઠીક કરી જાય."}
+{"id":"gu-ઑફિસ","lang":"Gujarati","locale":"gu","transcript":"સોમવારે ઑફિસમાં પ્રોજેક્ટની પ્રેઝન્ટેશન છે, સ્લાઇડ્સ તૈયાર કરવાની બાકી છે ને ડેટા અપડેટ કરવાનો છે."}
+{"id":"am-ሐኪም","lang":"Amharic","locale":"am","transcript":"ነገ ጥርስ ሐኪም ዘንድ መሄድ አለብኝ፣ ያ የተሞላው ጥርስ እየላላ ነው ማስተካከል ያስፈልጋል።"}
+{"id":"am-ገበያ","lang":"Amharic","locale":"am","transcript":"ከገበያ ሩዝ፣ ዘይት እና አትክልት ማምጣት አለብኝ፣ በርበሬም አልቋል መግዛት አይረሳኝ።"}
+{"id":"am-ጉዞ","lang":"Amharic","locale":"am","transcript":"በነሐሴ ባህርዳር ለመሄድ እቅድ አለን፣ ሆቴል እና የአውሮፕላን ቲኬት አስቀድመን ማስያዝ አለብን።"}
+{"id":"am-ጥገና","lang":"Amharic","locale":"am","transcript":"የወጥ ቤት ቧንቧ እየጠበጠበ ነው፣ ቧንቧ ሰራተኛ ጠርተን ቅዳሜ እንዲመጣ ማድረግ አለብን።"}
+{"id":"am-ስብሰባ","lang":"Amharic","locale":"am","transcript":"ሰኞ ጧት በቢሮ ስብሰባ አለ፣ ሪፖርቱን ማዘጋጀት እና ቁጥሮቹን ማረጋገጥ ይኖርብኛል።"}
+{"id":"yi-צונדאקטאר","lang":"Yiddish","locale":"yi","transcript":"איך דארף רופן דעם צונדאקטאר מארגן פרי, דער צאן טוט וויי שוין א גאנצע וואך."}
+{"id":"yi-מארק","lang":"Yiddish","locale":"yi","transcript":"דארף קויפן מילך, ברויט און אייער אין מארק, און זען צי זיי האבן פרישע פיש פאר שבת."}
+{"id":"yi-רעמאנט","lang":"Yiddish","locale":"yi","transcript":"דער קראן אין באד צימער טריפט, דארף רופן א מאסטער אדער אליין פאריכטן דעם וואסער."}
+{"id":"yi-נסיעה","lang":"Yiddish","locale":"yi","transcript":"מיר דארפן פלאנירן דעם באזוך אין ירושלים אויף סוכות, הויטעל און פליגער ביליעטן פריער באשטעלן."}
+{"id":"yi-ארבעט","lang":"Yiddish","locale":"yi","transcript":"מאנטאג פרי איז א זיצונג אין ביוראו, דארף גרייט מאכן דעם באריכט און איבערקוקן דעם חשבון."}
+{"id":"lo-ໝໍ","lang":"Lao","locale":"lo","transcript":"ມື້ອື່ນຕ້ອງໄປຫາໝໍແຂ້ວ, ແຂ້ວອຸດເກົ່າມັນຫຼຸດອອກແລ້ວ ຕ້ອງໄປເຮັດໃໝ່."}
+{"id":"lo-ຕະຫຼາດ","lang":"Lao","locale":"lo","transcript":"ໄປຊື້ເຂົ້າ ນ້ຳປາ ແລະ ຜັກຢູ່ຕະຫຼາດ, ພິກໄທກໍໝົດແລ້ວ ຢ່າລືມຊື້ນຳ."}
+{"id":"lo-ທ່ອງທ່ຽວ","lang":"Lao","locale":"lo","transcript":"ວາງແຜນໄປຫຼວງພະບາງເດືອນໜ້າ, ຕ້ອງຈອງໂຮງແຮມ ແລະ ປີ້ລົດໄວ້ລ່ວງໜ້າ."}
+{"id":"lo-ສ້ອມແປງ","lang":"Lao","locale":"lo","transcript":"ກ໊ອກນ້ຳໃນຫ້ອງຄົວຢ້ຽດ, ຕ້ອງໂທຫາຊ່າງມາແປງ ກ່ອນລະດູຝົນຈະມາ."}
+{"id":"lo-ປະຊຸມ","lang":"Lao","locale":"lo","transcript":"ວັນຈັນມີປະຊຸມຢູ່ຫ້ອງການ ຕອນເກົ້າໂມງ, ຕ້ອງກຽມສະໄລ້ ແລະ ກວດເບິ່ງຕົວເລກໃຫ້ຮຽບຮ້ອຍ."}
+{"id":"uz-bozor-sabzavot","lang":"Uzbek","locale":"uz","transcript":"Bozorga borib sabzavot olishim kerak, pomidor bilan bodring tugab qoldi."}
+{"id":"uz-mashina-tamir","lang":"Uzbek","locale":"uz","transcript":"Mashinani ustaga olib borish kerak, moy almashtirilmagan, tormoz ham g'ichirlayapti."}
+{"id":"uz-dorixona-dori","lang":"Uzbek","locale":"uz","transcript":"Dorixonadan bosh og'rig'iga dori olishni unutma, allergiya tabletkasi ham kerak."}
+{"id":"uz-uy-jihozlar","lang":"Uzbek","locale":"uz","transcript":"Kechqurun mebelni yetkazib berishadi, xonani tozalab qo'yish kerak."}
+{"id":"uz-til-kurs","lang":"Uzbek","locale":"uz","transcript":"Ingliz tili kursiga yozilish kerak, dushanba va chorshanba kunlari bo'lsa yaxshi bo'lardi."}
+{"id":"fo-tandlekni-timi","lang":"Faroese","locale":"fo","transcript":"Eg skal minnast at ringja til tandleknan og bóka eitt tíðarskeiði, helvt var í mars."}
+{"id":"fo-handil-matvarar","lang":"Faroese","locale":"fo","transcript":"Vit mangla mjólk, egg og breyð, kanst tú fara í handil á heimveg?"}
+{"id":"fo-ferð-keypmannahavn","lang":"Faroese","locale":"fo","transcript":"Eg ætli at bóka ferð til Keypmannahavnar í apríl, kanst tú hyggja eftir flogferðum?"}
+{"id":"fo-bilverkstaður","lang":"Faroese","locale":"fo","transcript":"Bilurin skal til verkstað, ljósið á mátborðinum logar, og dekkini eru slitnar."}
+{"id":"fo-føðingardagur-gáva","lang":"Faroese","locale":"fo","transcript":"Føðingardagur hjá Margiti er á leygardag, eg havi ikki enn keypt gávu."}
+{"id":"ht-mache-legim","lang":"Haitian Creole","locale":"ht","transcript":"M bezwen ale nan mache a pou m achte legim, zonyon ak piman pa rete lakay."}
+{"id":"ht-doktè-randevou","lang":"Haitian Creole","locale":"ht","transcript":"Fòk mwen rele doktè a pou pran yon randevou, doulè nan do a pa sispann."}
+{"id":"ht-peye-fakti","lang":"Haitian Creole","locale":"ht","transcript":"Pa bliye peye fakti kouran an anvan vandredi sinon y ap koupe limyè a."}
+{"id":"ht-reyinyon-lekol","lang":"Haitian Creole","locale":"ht","transcript":"Gen yon reyinyon nan lekòl timoun yo jedi apremidi, fòk mwen mande konje nan travay."}
+{"id":"ht-repare-twati","lang":"Haitian Creole","locale":"ht","transcript":"Twati a ap koule, m bezwen jwenn yon bòs pou repare l anvan sezon lapli a."}
+{"id":"ps-bazaar-meywa","lang":"Pashto","locale":"ps","transcript":"بازار ته ځم چې مېوه واخلم، سیبان او انار پکار دي."}
+{"id":"ps-doktar-muayena","lang":"Pashto","locale":"ps","transcript":"سبا ډاکټر ته ځم د سترګو معاینې لپاره، وخت مې اخیستی دی."}
+{"id":"ps-kitab-kutubkhana","lang":"Pashto","locale":"ps","transcript":"کتابتون ته ورشه او هغه کتابونه واپس کړه، نن ورځ وروستۍ ورځ ده."}
+{"id":"ps-kor-rang","lang":"Pashto","locale":"ps","transcript":"کور ته رنګ مال پکار دی، دیوالونه باید رنګ شي تر اختره وړاندې."}
+{"id":"ps-wradze-jalalabad","lang":"Pashto","locale":"ps","transcript":"جلال آباد ته د سفر لپاره ټکټ واخله، جمعه ورځ روان شو."}
+{"id":"tk-bazar-azyklar","lang":"Turkmen","locale":"tk","transcript":"Bazara gidip azyk almaly, süýt bilen çörek gutardy öýde."}
+{"id":"tk-lukman-barlag","lang":"Turkmen","locale":"tk","transcript":"Lukmana barlagy üçin ýazylmaly, ertir irden boş wagt barmy diýip jaň etmeli."}
+{"id":"tk-maşyn-ýag","lang":"Turkmen","locale":"tk","transcript":"Maşynyň ýagyny çalyşdyrmaly, soňky gezek üç aý mundan öň çalşypdym."}
+{"id":"tk-öý-abatlaýyş","lang":"Turkmen","locale":"tk","transcript":"Aşhanadaky kran akyp dur, ussany çagyrmaly bu hepde."}
+{"id":"tk-syýahat-awaza","lang":"Turkmen","locale":"tk","transcript":"Awaza dynç almaga gitmek üçin myhmanhana bronlamaly, iýul aýynyň başyna."}
+{"id":"nn-tannlege-avtale","lang":"Norwegian Nynorsk","locale":"nn","transcript":"Må hugse å ringe tannlegen og bestille time, det er lenge sidan sist."}
+{"id":"nn-handle-middag","lang":"Norwegian Nynorsk","locale":"nn","transcript":"Treng å handle inn til middag, vi manglar lauk, kvitlauk og pasta heime."}
+{"id":"nn-sykkel-reparere","lang":"Norwegian Nynorsk","locale":"nn","transcript":"Sykkelen har fått punktering att, må ta han med til verkstaden eller fikse sjølv."}
+{"id":"nn-reise-bergen","lang":"Norwegian Nynorsk","locale":"nn","transcript":"Skal bestille togbillettar til Bergen på fredag, helst morgontoget klokka åtte."}
+{"id":"nn-bursdagsgåve-mamma","lang":"Norwegian Nynorsk","locale":"nn","transcript":"Mamma fyller år på søndag, har ikkje kjøpt gåve enno, kanskje blomster og sjokolade."}
+{"id":"mt-suq-ħaxix","lang":"Maltese","locale":"mt","transcript":"Irrid immur sas-suq nixtri l-ħaxix, it-tadam u l-basal spiċċaw."}
+{"id":"mt-tabib-appuntament","lang":"Maltese","locale":"mt","transcript":"Trid iċċempel lit-tabib biex tieħu appuntament, id-dahar għadu juġgħak."}
+{"id":"mt-tiswija-kċina","lang":"Maltese","locale":"mt","transcript":"Il-vit tal-kċina qed inixxi, irridu nsejħu lil-plumber din il-ġimgħa."}
+{"id":"mt-vjaġġ-sqallija","lang":"Maltese","locale":"mt","transcript":"Irrid nibbukkja l-vapur għal Sqallija f'April, aħjar kmieni għax-xhur tas-sajf jimtlew."}
+{"id":"mt-rigal-anniversarju","lang":"Maltese","locale":"mt","transcript":"L-anniversarju tagħna l-Ħadd li ġej, għadni ma xtrajt xejn, forsi ċena f'ristorant."}
+{"id":"sa-puja-pushpa","lang":"Sanskrit","locale":"sa","transcript":"श्वः प्रातः पूजायै पुष्पाणि आनयनीयानि, धूपं च क्रेतव्यम्।"}
+{"id":"sa-adhyayana-vyakarana","lang":"Sanskrit","locale":"sa","transcript":"व्याकरणस्य पाठं पठितुं स्मर, परीक्षा सोमवासरे भविष्यति।"}
+{"id":"sa-yatra-kashi","lang":"Sanskrit","locale":"sa","transcript":"काशीयात्रायै रेलयानस्य आरक्षणं कर्तव्यम्, शुक्रवासरे गन्तव्यम्।"}
+{"id":"sa-naivedya-ghrtam","lang":"Sanskrit","locale":"sa","transcript":"नैवेद्यार्थं घृतं फलानि च आपणात् आनय, देवपूजा सायंकाले।"}
+{"id":"sa-pustaka-pratyarpana","lang":"Sanskrit","locale":"sa","transcript":"पुस्तकालयस्य पुस्तकानि प्रत्यर्पणीयानि, अद्य अन्तिमा तिथिः अस्ति।"}
+{"id":"lb-akafen-iessen","lang":"Luxembourgish","locale":"lb","transcript":"Ech muss nach an de Supermarché fir Mëllech, Brout an Eeër ze kafen."}
+{"id":"lb-dokter-rendez-vous","lang":"Luxembourgish","locale":"lb","transcript":"Muss beim Dokter uruffen fir en Rendez-vous ze maachen, de Réck deet ëmmer nach wéi."}
+{"id":"lb-auto-inspektioun","lang":"Luxembourgish","locale":"lb","transcript":"Den Auto muss an d'Inspektioun, de Contrôle technique ass am Mäerz fälleg."}
+{"id":"lb-reesen-paräis","lang":"Luxembourgish","locale":"lb","transcript":"Soll Zuchticketë fir op Paräis bestellen, am léifste Freides de Moien."}
+{"id":"lb-gebuertsdag-cadeau","lang":"Luxembourgish","locale":"lb","transcript":"D'Mamm huet Samschdeg Gebuertsdag, ech hunn nach kee Cadeau, vläicht Blummen an e Buch."}
+{"id":"my-zay-hin","lang":"Burmese","locale":"my","transcript":"ဈေးသွားပြီး ဟင်းသီးဟင်းရွက်ဝယ်ရမယ်၊ ခရမ်းချဉ်သီးနဲ့ ကြက်သွန်နီ ကုန်သွားပြီ။"}
+{"id":"my-sayabwa-natkwet","lang":"Burmese","locale":"my","transcript":"ဆရာဝန်နဲ့ ချိန်းထားတယ် မနက်ဖြန် မနက်ပိုင်း၊ သွေးစစ်ဖို့ အစာမစားနဲ့။"}
+{"id":"my-motoka-pyanpyin","lang":"Burmese","locale":"my","transcript":"ကားပြင်ဆိုင်သွားရမယ်၊ ဘရိတ်က အသံထွက်နေပြီး ဆီလည်းလဲရမယ်။"}
+{"id":"my-ein-aqaunpyan","lang":"Burmese","locale":"my","transcript":"အိမ်ခေါင်မိုး ယိုနေတယ်၊ မိုးမရွာခင် ပြင်ဖို့ လက်သမားခေါ်ရမယ်။"}
+{"id":"my-khayee-mandalay","lang":"Burmese","locale":"my","transcript":"မန္တလေးသွားဖို့ ကားလက်မှတ်ကြိုဝယ်ထားရမယ်၊ သောကြာနေ့ ထွက်မယ်။"}
+{"id":"bo-nangma","lang":"Tibetan","locale":"bo","transcript":"སང་ཉིན་ནང་མ་ལ་སྨན་ཁང་ལ་འགྲོ་དགོས། སྨན་པས་ཟླ་རེ་རེ་ལ་བརྟག་དཔྱད་བྱེད་དགོས་ཟེར།"}
+{"id":"bo-tshongkhang","lang":"Tibetan","locale":"bo","transcript":"ཚོང་ཁང་ནས་འབྲས་དང་ཤ་དང་ཚོད་མ་ཉོ་དགོས། དགོང་མོ་ཟ་མ་བཟོ་རྒྱུ་ཡིན།"}
+{"id":"bo-laska","lang":"Tibetan","locale":"bo","transcript":"ཁང་པའི་སྒེའུ་ཁུང་འདི་ཞིག་པ་རེད། ཤེལ་གསར་པ་ཞིག་བརྗེ་དགོས་བསམ་གྱི་འདུག"}
+{"id":"bo-drukpa","lang":"Tibetan","locale":"bo","transcript":"གྲོགས་པོས་ལྷ་སར་འགྲོ་རྒྱུའི་འཆར་གཞི་བཤད་སོང་། ཟླ་བ་འདིའི་ནང་གི་གནམ་གྲུའི་ཐེམས་ཀ་ལྟ་དགོས།"}
+{"id":"bo-lasey","lang":"Tibetan","locale":"bo","transcript":"ལས་ཀའི་ཚོགས་འདུ་གཟའ་པ་སངས་ཆུ་ཚོད་བཅུ་ལ་ཡོད། སྙན་ཞུ་གྲ་སྒྲིག་བྱེད་དགོས།"}
+{"id":"tl-palengke","lang":"Tagalog","locale":"tl","transcript":"Kailangan ko pumunta sa palengke mamaya, bibili ng isda at gulay para sa hapunan. Yung sariwa ha, huwag yung frozen."}
+{"id":"tl-dentista","lang":"Tagalog","locale":"tl","transcript":"May appointment ako sa dentista bukas ng alas dos. Yung sa Makati yung clinic, huwag kalimutang magdala ng insurance card."}
+{"id":"tl-bayad","lang":"Tagalog","locale":"tl","transcript":"Reminder lang, kailangan magbayad ng kuryente bago mag-15. Halos dalawang libo yung bill this month."}
+{"id":"tl-biyahe","lang":"Tagalog","locale":"tl","transcript":"Mag-book na ko ng ticket papuntang Cebu sa March. Tatlong araw lang yung bakasyon namin, check ko muna si Airbnb."}
+{"id":"tl-anak","lang":"Tagalog","locale":"tl","transcript":"Sunduin si JR sa school ng alas tres. Tapos dadalhin sa basketball practice sa covered court."}
+{"id":"mg-tsena","lang":"Malagasy","locale":"mg","transcript":"Tsy maintsy mankany an-tsena aho rahampitso hividy trondro sy legioma. Efa lany ny vary ao an-trano koa."}
+{"id":"mg-dokotera","lang":"Malagasy","locale":"mg","transcript":"Misy fotoana amin'ny dokotera aho amin'ny alarobia, amin'ny iray tolakandro. Tsy maintsy entina ny karatra fitsaboana."}
+{"id":"mg-trano","lang":"Malagasy","locale":"mg","transcript":"Mila amboarina ilay tafo trano fa mitete rehefa misy orana. Antsoy ny mpiasa rahampitso maraina."}
+{"id":"mg-fianarana","lang":"Malagasy","locale":"mg","transcript":"Mila alefa any amin'ny sekoly ny zaza amin'ny fito maraina. Aza hadino ny sakafony sy ny kahieny."}
+{"id":"mg-dia","lang":"Malagasy","locale":"mg","transcript":"Handeha hiala sasatra any Nosy Be izahay amin'ny volana ambony. Tokony hanaova réservation hotely aloha."}
+{"id":"as-bazaar","lang":"Assamese","locale":"as","transcript":"কাইলৈ বজাৰলৈ যাব লাগিব, আলু পিয়াঁজ আৰু মাছ কিনিব লাগে। মাহৰ শেষত দোকানত একো নাই।"}
+{"id":"as-doctor","lang":"Assamese","locale":"as","transcript":"বুধবাৰে ডাক্তৰৰ ওচৰত appointment আছে দুপৰীয়া তিনি বজাত। ৰিপ'ৰ্টবোৰ লৈ যাবলৈ নাপাহৰিবা।"}
+{"id":"as-ghor","lang":"Assamese","locale":"as","transcript":"ঘৰৰ পানীৰ নলটো লিক হৈ আছে, প্লাম্বাৰক মাতিব লাগিব। আজি বিয়লিয়ে ফোন কৰিম।"}
+{"id":"as-biyoli","lang":"Assamese","locale":"as","transcript":"ককাইদেউৰ বিয়াখন আহিব মাহত। কাপোৰ এযোৰ চিলাবলৈ দিব লাগে আৰু উপহাৰ এটা কিনিব লাগে।"}
+{"id":"as-kaam","lang":"Assamese","locale":"as","transcript":"অফিচত শুকুৰবাৰে presentation দিব লাগিব। স্লাইডবোৰ আজি ৰাতিয়ে সাজু কৰিব লাগে।"}
+{"id":"tt-kибет","lang":"Tatar","locale":"tt","transcript":"Иртәгә кибеткә барырга кирәк, ипи белән сөт алырга. Бүген кичен ашарга бернәрсә юк."}
+{"id":"tt-tabib","lang":"Tatar","locale":"tt","transcript":"Шимбә көнне табибка язылдым, сәгать уннан. Анализлар нәтиҗәсен алып барырга онытма."}
+{"id":"tt-tamirlaw","lang":"Tatar","locale":"tt","transcript":"Ашханәдәге кран ага, тамирлатырга кирәк. Остага шалтыратып сорарга кирәк бүген."}
+{"id":"tt-sәyahәt","lang":"Tatar","locale":"tt","transcript":"Казанга барырга план бар июнь аенда. Поезд билетларын алдан алырга кирәк, бәяләр үсәчәк."}
+{"id":"tt-eш","lang":"Tatar","locale":"tt","transcript":"Аларга проект турында презентация әзерләргә кирәк атнага. Бүген кичен слайдлар ясыйм."}
+{"id":"haw-makeke","lang":"Hawaiian","locale":"haw","transcript":"E hele ana au i ka mākeke i kēia kakahiaka e kūʻai i ka iʻa a me nā hua ʻai. Pono e hoʻomākaukau i ka ʻaina ahiahi."}
+{"id":"haw-kauka","lang":"Hawaiian","locale":"haw","transcript":"He appointment koʻu me ke kauka i ka Pōʻakolu, hola ʻekolu. Mai poina e lawe i ka palapala olakino."}
+{"id":"haw-hale","lang":"Hawaiian","locale":"haw","transcript":"Ua haki ka puka aniani o ka hale. Pono e kāhea i ke kanaka hoʻoponopono e hoʻololi i kekahi mea hou."}
+{"id":"haw-huakai","lang":"Hawaiian","locale":"haw","transcript":"Makemake mākou e hele i Maui i kēia mahina aʻe. Pono e hoʻopaʻa wahi noho ma mua o ka piha."}
+{"id":"haw-keiki","lang":"Hawaiian","locale":"haw","transcript":"E kiʻi ana au i nā keiki mai ke kula i ka hola ʻekolu. A laila e hele ana lākou i ka papa hula."}
+{"id":"ln-zando","lang":"Lingala","locale":"ln","transcript":"Nasengeli kokende na zando lobi natéka mbisi mpe ndunda. Biloko ya kolía esili na ndako."}
+{"id":"ln-monganga","lang":"Lingala","locale":"ln","transcript":"Nazali na rendez-vous na monganga mokolo ya misato na ngonga ya mibale. Nakosala examen ya makila."}
+{"id":"ln-ndako","lang":"Lingala","locale":"ln","transcript":"Porte ya ndako ebukani, esengeli kobongisa yango. Nakobenga menuisier lelo na mpokwa."}
+{"id":"ln-mobembo","lang":"Lingala","locale":"ln","transcript":"Tolingi kokende na Brazzaville sanza ekolanda. Esengeli koluka billet ya masuwa sikoyo."}
+{"id":"ln-mosala","lang":"Lingala","locale":"ln","transcript":"Patron alobaki réunion ezali vendredi na tongo. Nasengeli kobongisa rapport ya mois oyo liboso."}
+{"id":"ha-kasuwa","lang":"Hausa","locale":"ha","transcript":"Ina bukatar in je kasuwa gobe in sayi nama da albasa da tumatir. Da safe za mu dafa abincin dare."}
+{"id":"ha-likita","lang":"Hausa","locale":"ha","transcript":"Ina da alƙawari da likita ranar Laraba da ƙarfe biyu. Kar ka manta da kawo sakamakon gwajin jini."}
+{"id":"ha-gida","lang":"Hausa","locale":"ha","transcript":"Famfon ruwa na gida ya lalace, sai an gyara shi. Zan kira mai gyara bututu yau da yamma."}
+{"id":"ha-tafiya","lang":"Hausa","locale":"ha","transcript":"Muna shirin tafiya Abuja watan gobe. Zan duba farashin tikiti na jirgin sama a yau."}
+{"id":"ha-aiki","lang":"Hausa","locale":"ha","transcript":"Bos ya ce akwai taro ranar Jumma'a da safe. Dole ne in shirya rahoton aiki kafin lokacin."}
+{"id":"ba-kибет","lang":"Bashkir","locale":"ba","transcript":"Иртәгә кибеткә барырға кәрәк, икмәк менән һөт алырға. Бөгөн ашарға бер нәмә лә юҡ."}
+{"id":"ba-табип","lang":"Bashkir","locale":"ba","transcript":"Шәмбе көнө табипҡа яҙылдым, һәғәт унда. Анализ һөҙөмтәләрен алып барырға онотма."}
+{"id":"ba-тамирлау","lang":"Bashkir","locale":"ba","transcript":"Аш бүлмәһендәге кран аға, тамирлатырға кәрәк. Оҫтаға шалтыратып һорарға кәрәк бөгөн."}
+{"id":"ba-сәйәхәт","lang":"Bashkir","locale":"ba","transcript":"Өфөгә барырға план бар июнь айында. Поезд билеттарын алдан алырға кәрәк, бәйәләр үҫәсәк."}
+{"id":"ba-эш","lang":"Bashkir","locale":"ba","transcript":"Проект буйынса презентация әҙерләргә кәрәк аҙнаға. Бөгөн кис слайдтар яһайым."}
+{"id":"jw-pasar","lang":"Javanese","locale":"jw","transcript":"Sesuk kudu menyang pasar tuku iwak karo sayuran. Bumbu masak nang omah wis entek kabeh."}
+{"id":"jw-dhokter","lang":"Javanese","locale":"jw","transcript":"Dino Rebo aku duwe janji karo dhokter jam loro. Aja lali nggawa hasil lab wingi."}
+{"id":"jw-omah","lang":"Javanese","locale":"jw","transcript":"Gendheng omah ana sing bocor, kudu ndang didandani. Sesuk esuk arep nelpon tukang."}
+{"id":"jw-liburan","lang":"Javanese","locale":"jw","transcript":"Pengen liburan menyang Jogja sasi ngarep. Kudu pesen hotel lan tiket sepur saiki."}
+{"id":"jw-gawe","lang":"Javanese","locale":"jw","transcript":"Bos ngomong rapat dino Jumuah jam wolu esuk. Aku kudu nyiapke laporan sasi iki bengi."}
+{"id":"su-pasar","lang":"Sundanese","locale":"su","transcript":"Isukan kudu ka pasar meuli lauk jeung sayuran. Bungbu di imah geus béak kabéh."}
+{"id":"su-dokter","lang":"Sundanese","locale":"su","transcript":"Poé Rebo abdi gaduh janjian sareng dokter tabuh dua. Tong hilap mawa hasil laboratorium kamari."}
+{"id":"su-imah","lang":"Sundanese","locale":"su","transcript":"Hateup imah aya nu bocor, kedah dilereskeun. Isukan énjing badé nelepon tukang."}
+{"id":"su-piknik","lang":"Sundanese","locale":"su","transcript":"Hoyong piknik ka Pangandaran bulan payun. Kedah pesen hotel sareng tiket ti ayeuna."}
+{"id":"su-gawe","lang":"Sundanese","locale":"su","transcript":"Bos nyarios rapat dinten Jumaah tabuh dalapan énjing. Kedah nyiapkeun laporan bulan ieu peuting."}
+{"id":"yue-gaisi","lang":"Cantonese","locale":"yue","transcript":"聽日要去街市買魚同菜，屋企啲餸已經食晒喇。順便買埋啲生果返嚟。"}
+{"id":"yue-yisang","lang":"Cantonese","locale":"yue","transcript":"禮拜三要去睇醫生，下晝三點。記住帶埋上次嘅驗血報告。"}
+{"id":"yue-wukkei","lang":"Cantonese","locale":"yue","transcript":"屋企個水喉漏水，要搵師傅嚟整。今日放工之後打電話問吓。"}
+{"id":"yue-leuhang","lang":"Cantonese","locale":"yue","transcript":"想下個月去台灣旅行，要開始book機票同酒店。趁而家平先book。"}
+{"id":"yue-fanhgung","lang":"Cantonese","locale":"yue","transcript":"老細話禮拜五朝早開會，要準備好份月報。今晚返到屋企就做。"}
